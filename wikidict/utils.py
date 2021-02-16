@@ -440,6 +440,7 @@ def process_templates(word: str, text: str, locale: str) -> str:
     # Handle <math> HTML tags
     text = sub(r"<math>([^<]+)</math>", partial(convert_math, word=word), text)
     text = sub(r"<chem>([^<]+)</chem>", partial(convert_chem, word=word), text)
+    text = sub(r"<hiero>([^<]+)</hiero>", partial(convert_hiero, word=word), text)
 
     # Remove extra spaces (it happens when a template is ignored for instance)
     text = sub(r"\s{2,}", " ", text)
@@ -495,6 +496,18 @@ def convert_chem(match: Union[str, Match[str]], word: str) -> str:
     except Exception:
         print(f"<chem> ERROR with {expr} in [{word}]", flush=True)
         return expr
+
+
+def convert_hiero(match: Union[str, Match[str]], word: str) -> str:
+    """Convert hiretoglyph symbols to a base64 encoded GIF file."""
+    expr: str = (match.group(1) if isinstance(match, re.Match) else match).strip()
+    from .hiero import wh_hiero
+
+    result = ""
+    print(expr)
+    for e in re.split(r"-|\s", expr):
+        result += wh_hiero.get(expr, "")
+    return result
 
 
 def transform(word: str, template: str, locale: str) -> str:
