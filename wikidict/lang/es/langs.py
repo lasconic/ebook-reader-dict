@@ -344,6 +344,7 @@ langs = {
     "frp": "francoprovenzal",
     "frr": "frisón septentrional",
     "frs": "frisón oriental",
+    "fry": "frisón occidental",
     "fur": "friulano",
     "fy": "frisón",
     "ga": "irlandés",
@@ -1178,5 +1179,5 @@ langs = {
     "zrp": "judeofrancés",
     "zu": "zulú",
     "zun": "zuñi",
-}  # 1,173
+}  # 1,174
 # END
