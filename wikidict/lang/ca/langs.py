@@ -426,6 +426,7 @@ langs = {
     "rap": "rapanui",
     "rar": "rarotongà",
     "rgn": "romanyès",
+    "rhg": "rohingya",
     "rm": "retoromànic",
     "rn": "rundi",
     "ro": "romanès",
@@ -578,5 +579,5 @@ langs = {
     "zun": "zuni",
     "zxx": "sense contingut lingüístic",
     "zza": "zaza",
-}  # 573
+}  # 574
 # END
