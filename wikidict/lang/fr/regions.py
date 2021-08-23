@@ -387,6 +387,7 @@ regions = {
     "burkina": "Burkina Faso",
     "lyonnais": "Lyonnais",
     "léonard": "Léonard",
+    "normand insulaire": "Normand insulaire",
     "parler gaga": "Parler gaga",
     "pays de Waes": "Pays de Waes",
     "régio": "Régionalisme",
@@ -403,5 +404,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 398
+}  # 399
 # END
