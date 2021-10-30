@@ -651,6 +651,7 @@ langs = {
     "mkj": "mokilés",
     "ml": "malayalam",
     "mmc": "mazahua de Michoacán",
+    "mmn": "mamanoá",
     "mn": "mongol",
     "mnc": "manchú",
     "mni": "manipuri",
@@ -1183,5 +1184,5 @@ langs = {
     "zrp": "judeofrancés",
     "zu": "zulú",
     "zun": "zuñi",
-}  # 1,178
+}  # 1,179
 # END
