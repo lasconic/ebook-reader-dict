@@ -1026,6 +1026,7 @@ langs = {
     "tob": "toba qom",
     "tog": "xitsonga de Malawi",
     "toj": "tojolabal",
+    "tok": "toki pona",
     "top": "totonaco de Papantla",
     "tpc": "tlapaneco de Azoyú",
     "tpi": "tok pisin",
@@ -1184,5 +1185,5 @@ langs = {
     "zrp": "judeofrancés",
     "zu": "zulú",
     "zun": "zuñi",
-}  # 1,179
+}  # 1,180
 # END
