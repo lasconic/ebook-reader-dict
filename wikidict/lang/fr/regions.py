@@ -41,7 +41,6 @@ regions = {
     "Aube": "Aube",
     "Australie": "Australie",
     "Autriche": "Autriche",
-    "Autunois": "Autunois",
     "Auvergne": "Auvergne",
     "BE": "Belgique",
     "BF": "Burkina Faso",
@@ -51,6 +50,8 @@ regions = {
     "Bangladesh": "Bangladesh",
     "Barrafranca": "Barrafranca",
     "Basses-terres continentales": "Basses-terres continentales",
+    "Baugé": "Baugé",
+    "Bavière": "Bavière",
     "Beaujolais": "Beaujolais",
     "Belgique": "Belgique",
     "Belize": "Belize",
@@ -431,5 +432,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 426
+}  # 427
 # END
