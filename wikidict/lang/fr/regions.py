@@ -43,7 +43,6 @@ regions = {
     "Autriche": "Autriche",
     "Autunois": "Autunois",
     "Auvergne": "Auvergne",
-    "BE": "Belgique",
     "BF": "Burkina Faso",
     "BR": "Brésil",
     "Bahia": "Bahia",
@@ -54,9 +53,9 @@ regions = {
     "Baugé": "Baugé",
     "Bavière": "Bavière",
     "Beaujolais": "Beaujolais",
-    "Belgique": "Belgique",
     "Belize": "Belize",
     "Bengale": "Bangladesh",
+    "Bengale-Occidental": "Bengale-Occidental",
     "Berry": "Berry",
     "Bolivie": "Bolivie",
     "Bordelais": "Bordelais",
@@ -68,6 +67,7 @@ regions = {
     "Brésil": "Brésil",
     "Burkina Faso": "Burkina Faso",
     "Burundi": "Burundi",
+    "Bénin": "Bénin",
     "CA": "Canada",
     "CD": "Congo-Kinshasa",
     "CG": "Congo-Brazzaville",
@@ -80,9 +80,7 @@ regions = {
     "Cambodge": "Cambodge",
     "Cameroun": "Cameroun",
     "Canada": "Canada",
-    "Caraïbes": "Caraïbes",
     "Catalogne": "Catalogne",
-    "Catane": "Catane",
     "Caucase": "Caucase",
     "Caux": "Pays de Caux",
     "Centrafrique": "Centrafrique",
@@ -431,5 +429,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 426
+}  # 424
 # END
