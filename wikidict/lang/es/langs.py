@@ -29,6 +29,7 @@ langs = {
     "agu": "aguacateco",
     "agx": "aghul",
     "ain": "ainu",
+    "aio": "aiton",
     "ait": "arikem",
     "ak": "acano",
     "akk": "acadio",
@@ -1187,5 +1188,5 @@ langs = {
     "zrp": "judeofrancés",
     "zu": "zulú",
     "zun": "zuñi",
-}  # 1,182
+}  # 1,183
 # END
