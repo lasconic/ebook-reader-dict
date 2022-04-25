@@ -510,6 +510,7 @@ langs = {
     "kgk": "kaiwá",
     "kgm": "karipuna",
     "kha": "jasí",
+    "khb": "tai lü",
     "khi": "joisano",
     "khn": "jandeshi",
     "kho": "jotanés",
@@ -1188,5 +1189,5 @@ langs = {
     "zrp": "judeofrancés",
     "zu": "zulú",
     "zun": "zuñi",
-}  # 1,183
+}  # 1,184
 # END
