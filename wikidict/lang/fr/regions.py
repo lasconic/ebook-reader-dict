@@ -10,6 +10,9 @@ regions = {
     "AE": "Émirats arabes unis",
     "AM": "Amérique latine",
     "AR": "Argentine",
+    "AT": "Autriche",
+    "AU": "Australie",
+    "AUS": "Australie",
     "Acadie": "Acadie",
     "Adinkerke": "Adinkerke",
     "Afrique": "Afrique",
@@ -36,6 +39,8 @@ regions = {
     "Asie": "Asie",
     "Asie centrale": "Asie centrale",
     "Aube": "Aube",
+    "Australie": "Australie",
+    "Autriche": "Autriche",
     "Autunois": "Autunois",
     "Auvergne": "Auvergne",
     "BE": "Belgique",
@@ -431,5 +436,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 426
+}  # 431
 # END
