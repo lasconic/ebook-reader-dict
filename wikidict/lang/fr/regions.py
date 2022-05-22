@@ -51,7 +51,6 @@ regions = {
     "Bangladesh": "Bangladesh",
     "Barrafranca": "Barrafranca",
     "Basses-terres continentales": "Basses-terres continentales",
-    "Baugé": "Baugé",
     "Bavière": "Bavière",
     "Beaujolais": "Beaujolais",
     "Belgique": "Belgique",
@@ -438,5 +437,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 433
+}  # 432
 # END
