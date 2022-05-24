@@ -316,6 +316,7 @@ regions = {
     "Polynésie française": "Polynésie française",
     "Porto Rico": "Porto Rico",
     "Portugal": "Portugal",
+    "Praia": "Praia",
     "Provence": "Provence",
     "Pré-en-Pail": "Pré-en-Pail",
     "Pulo Anna": "Pulo Anna",
@@ -438,5 +439,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 433
+}  # 434
 # END
