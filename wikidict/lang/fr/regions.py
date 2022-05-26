@@ -60,7 +60,6 @@ regions = {
     "Bengale-Occidental": "Bengale-Occidental",
     "Berry": "Berry",
     "Bolivie": "Bolivie",
-    "Bordelais": "Bordelais",
     "Bourbonnais": "Bourbonnais",
     "Bourgogne": "Bourgogne",
     "Bray": "Pays de Bray",
@@ -439,5 +438,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 434
+}  # 433
 # END
