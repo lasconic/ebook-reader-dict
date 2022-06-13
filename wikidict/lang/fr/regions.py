@@ -48,7 +48,6 @@ regions = {
     "BR": "Brésil",
     "Bahamas": "Bahamas",
     "Bahia": "Bahia",
-    "Baléares": "Baléares",
     "Bangladesh": "Bangladesh",
     "Barrafranca": "Barrafranca",
     "Basses-terres continentales": "Basses-terres continentales",
@@ -445,5 +444,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 440
+}  # 439
 # END
