@@ -185,11 +185,13 @@ regions = {
     "Jamaïque": "Jamaïque",
     "Japon": "Japon",
     "Jersey": "Jersey",
+    "Johor-Selangor": "Johor-Selangor",
     "Jura": "Jura",
     "KOR": "Corée du Sud",
     "KP": "Corée du Nord",
     "KR": "Corée du Sud",
     "Kabylie": "Kabylie",
+    "Kazakhstan": "Kazakhstan",
     "Kerry": "Kerry",
     "Keveona": "Keveona",
     "Kirghizistan": "Kirghizistan",
@@ -445,5 +447,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 440
+}  # 442
 # END
