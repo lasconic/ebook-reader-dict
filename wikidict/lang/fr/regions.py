@@ -282,9 +282,12 @@ regions = {
     "Norfolk": "Île Norfolk",
     "Normandie": "Normandie",
     "Northumbrie": "Northumbrie",
+    "Nouvelle-Calédonie": "Nouvelle-Calédonie",
     "Nouvelle-Zélande": "Nouvelle-Zélande",
     "Nouvelle-Écosse": "Nouvelle-Écosse",
     "Occitanie": "Occitanie",
+    "Océanie": "Océanie",
+    "Oise": "Oise",
     "Ontario": "Ontario",
     "Ouessant": "Ouessant",
     "Ouzbékistan": "Ouzbékistan",
@@ -427,6 +430,7 @@ regions = {
     "jersiais": "Jersiais",
     "lyonnais": "Lyonnais",
     "léonard": "Léonard",
+    "normand insulaire": "Normand insulaire",
     "parler gaga": "Parler gaga",
     "pays de Waes": "Pays de Waes",
     "régio": "Régionalisme",
@@ -443,5 +447,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 438
+}  # 442
 # END
