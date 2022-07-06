@@ -52,7 +52,6 @@ domain_templates = {
     "carnivores": "Zoologie",
     "cervidés": "Zoologie",
     "chameaux": "Zoologie",
-    "champignon": "Mycologie",
     "champignons": "Mycologie",
     "chats": "Zoologie",
     "chaussures": "Vêtement",
@@ -87,7 +86,6 @@ domain_templates = {
     "cours d'eau": "Géographie",
     "cours d’eau": "Géographie",
     "couteaux": "Couteaux",
-    "couverture": "Couvertures",
     "couvertures": "Couvertures",
     "couvre-chefs": "Habillement",
     "crabes": "Zoologie",
@@ -111,7 +109,6 @@ domain_templates = {
     "divinités": "Divinité",
     "documents": "Média",
     "drogues": "Pharmacologie",
-    "délinquants": "Droit",
     "délits": "Droit",
     "départements": "Géographie",
     "déserts": "Géographie",
@@ -149,7 +146,6 @@ domain_templates = {
     "insectes": "Entomologie",
     "instruments": "Musique",
     "instruments de mesure": "Métrologie",
-    "instruments de musique": "Musique",
     "instruments à cordes": "Musique",
     "instruments à vent": "Musique",
     "instruments électroniques": "Musique",
@@ -293,7 +289,6 @@ domain_templates = {
     "vins": "Œnologie",
     "virus": "Virologie",
     "voitures": "Automobile",
-    "véhicule": "Transport",
     "véhicules": "Transport",
     "vélos": "Cyclisme",
     "vête": "Habillement",
@@ -310,5 +305,5 @@ domain_templates = {
     "états": "État",
     "étoiles": "Astronomie",
     "îles": "Géographie",
-}  # 305
+}  # 300
 # END
