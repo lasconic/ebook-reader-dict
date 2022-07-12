@@ -260,14 +260,11 @@ regions = {
     "Montréal": "Montréal",
     "Montsoreau": "Montsoreau",
     "Monténégro": "Monténégro",
-    "Moselle": "Moselle",
     "Munster": "Munster",
-    "Murcie": "Murcie",
     "NE": "Niger",
     "NL": "Pays-Bas",
     "NZ": "Nouvelle-Zélande",
     "Namibie": "Namibie",
-    "Nantes": "Nantes",
     "Navarre": "Navarre",
     "Nevele": "Nevele",
     "New York": "New York",
@@ -447,5 +444,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 442
+}  # 439
 # END
