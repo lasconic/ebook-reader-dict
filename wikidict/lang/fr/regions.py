@@ -308,7 +308,6 @@ regions = {
     "Patois du Saulnois": "Patois du Saulnois",
     "Patois messin": "Patois messin",
     "Patois vosgien": "Patois vosgien",
-    "Pays basque": "Pays basque",
     "Pays de Galles": "Pays de Galles",
     "Pays-Bas": "Pays-Bas",
     "Pellouailles-les-Vignes": "Pellouailles-les-Vignes",
@@ -447,5 +446,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 442
+}  # 441
 # END
