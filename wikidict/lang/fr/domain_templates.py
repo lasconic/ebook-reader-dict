@@ -214,7 +214,6 @@ domain_templates = {
     "phobies": "Médecine",
     "phyton": "Botanique",
     "pigeons": "Zoologie",
-    "plans d’eau": "Géographie",
     "plantes": "Botanique",
     "planètes": "Astronomie",
     "points cardinaux": "Géographie",
@@ -311,5 +310,5 @@ domain_templates = {
     "états": "État",
     "étoiles": "Astronomie",
     "îles": "Géographie",
-}  # 306
+}  # 305
 # END
