@@ -177,10 +177,8 @@ regions = {
     "Honduras": "Honduras",
     "Hongrie": "Hongrie",
     "IDLMadeleine": "Îles-de-la-Madeleine",
-    "IE": "Irlande",
     "Inde": "Inde",
     "Ingelmunster": "Ingelmunster",
-    "Irlande": "Irlande",
     "Israël": "Israël",
     "Jamaïque": "Jamaïque",
     "Japon": "Japon",
@@ -447,5 +445,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 442
+}  # 440
 # END
