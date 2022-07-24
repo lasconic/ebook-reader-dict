@@ -172,13 +172,14 @@ regions = {
     "HT": "Haïti",
     "Harelbeke": "Harelbeke",
     "Haute-Marne": "Haute-Marne",
-    "Hawaï": "Hawaï",
     "Haïti": "Haïti",
     "Honduras": "Honduras",
     "Hongrie": "Hongrie",
     "IDLMadeleine": "Îles-de-la-Madeleine",
+    "IE": "Irlande",
     "Inde": "Inde",
     "Ingelmunster": "Ingelmunster",
+    "Irlande": "Irlande",
     "Israël": "Israël",
     "Jamaïque": "Jamaïque",
     "Japon": "Japon",
@@ -445,5 +446,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 440
+}  # 441
 # END
