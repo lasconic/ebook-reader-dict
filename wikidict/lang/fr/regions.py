@@ -292,10 +292,12 @@ regions = {
     "Oise": "Oise",
     "Ontario": "Ontario",
     "Ouessant": "Ouessant",
+    "Ouzbékistan": "Ouzbékistan",
     "PE": "Pérou",
     "PRK": "Corée du Nord",
     "PT": "Portugal",
     "Palerme": "Palerme",
+    "Panama": "Panama",
     "Paraguay": "Paraguay",
     "Paris": "Paris",
     "Parler gaga": "Parler gaga",
@@ -449,5 +451,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 444
+}  # 446
 # END
