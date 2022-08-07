@@ -150,7 +150,6 @@ domain_templates = {
     "insectes": "Entomologie",
     "instruments": "Musique",
     "instruments de mesure": "Métrologie",
-    "instruments de musique": "Musique",
     "instruments à cordes": "Musique",
     "instruments à vent": "Musique",
     "instruments électroniques": "Musique",
@@ -214,7 +213,6 @@ domain_templates = {
     "phobies": "Médecine",
     "phyton": "Botanique",
     "pigeons": "Zoologie",
-    "plans d’eau": "Géographie",
     "plantes": "Botanique",
     "planètes": "Astronomie",
     "points cardinaux": "Géographie",
@@ -235,7 +233,6 @@ domain_templates = {
     "prunes": "Botanique",
     "préparations": "Cuisine",
     "psychotropes": "Psychotrope",
-    "pâtes": "Cuisine",
     "pâtes alimentaires": "Cuisine",
     "pâtisseries": "Pâtisserie",
     "pélicans": "Ornithologie",
@@ -297,7 +294,6 @@ domain_templates = {
     "véhicule": "Transport",
     "véhicules": "Transport",
     "vélos": "Cyclisme",
-    "vête": "Habillement",
     "vêtements": "Habillement",
     "xénarthres": "Mammalogie",
     "échinodermes": "Zoologie",
@@ -311,5 +307,5 @@ domain_templates = {
     "états": "État",
     "étoiles": "Astronomie",
     "îles": "Géographie",
-}  # 306
+}  # 302
 # END

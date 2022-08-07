@@ -6,9 +6,7 @@ Auto-generated with `python -m scripts`.
 # START
 regions = {
     "AAE": "Anglais afro-américain",
-    "AD": "Andorre",
     "AE": "Émirats arabes unis",
-    "AM": "Amérique latine",
     "AR": "Argentine",
     "AT": "Autriche",
     "AU": "Australie",
@@ -71,7 +69,6 @@ regions = {
     "Burkina Faso": "Burkina Faso",
     "Burundi": "Burundi",
     "Bénin": "Bénin",
-    "CA": "Canada",
     "CD": "Congo-Kinshasa",
     "CG": "Congo-Brazzaville",
     "CH": "Suisse",
@@ -178,7 +175,6 @@ regions = {
     "Honduras": "Honduras",
     "Hongrie": "Hongrie",
     "IDLMadeleine": "Îles-de-la-Madeleine",
-    "IE": "Irlande",
     "Inde": "Inde",
     "Ingelmunster": "Ingelmunster",
     "Irlande": "Irlande",
@@ -436,7 +432,6 @@ regions = {
     "parler gaga": "Parler gaga",
     "pays Gallo": "Pays Gallo",
     "pays de Waes": "Pays de Waes",
-    "pays gallo": "Pays Gallo",
     "régio": "Régionalisme",
     "région": "Régionalisme",
     "régional": "Régionalisme",
@@ -451,5 +446,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 446
+}  # 441
 # END
