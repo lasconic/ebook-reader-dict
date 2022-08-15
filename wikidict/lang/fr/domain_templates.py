@@ -150,6 +150,7 @@ domain_templates = {
     "insectes": "Entomologie",
     "instruments": "Musique",
     "instruments de mesure": "Métrologie",
+    "instruments de musique": "Musique",
     "instruments à cordes": "Musique",
     "instruments à vent": "Musique",
     "instruments électroniques": "Musique",
@@ -170,6 +171,7 @@ domain_templates = {
     "léporidés": "Mammalogie",
     "lézards": "Herpétologie",
     "machines": "Technologie",
+    "maladie": "Nosologie",
     "maladies": "Nosologie",
     "mammifère": "Zoologie",
     "mammifères": "Zoologie",
@@ -201,6 +203,7 @@ domain_templates = {
     "palmipèdes": "Ornithologie",
     "papillons": "Entomologie",
     "particules": "Physique",
+    "pathologie": "Nosologie",
     "pays": "Géographie",
     "percussions": "Musique",
     "perroquets": "Ornithologie",
@@ -226,6 +229,7 @@ domain_templates = {
     "primates": "Zoologie",
     "protocoles": "Réseaux",
     "protéines": "Biochimie",
+    "proverbe": "Proverbe",
     "proverbes": "Proverbe",
     "provinces": "Géographie",
     "prunes": "Botanique",
@@ -246,6 +250,7 @@ domain_templates = {
     "reptiles": "Herpétologie",
     "requins": "Ichtyologie",
     "roches": "Pétrographie",
+    "rongeur": "Zoologie",
     "rongeurs": "Zoologie",
     "régions": "Toponyme",
     "saisons": "Calendrier",
@@ -306,5 +311,5 @@ domain_templates = {
     "états": "État",
     "étoiles": "Astronomie",
     "îles": "Géographie",
-}  # 301
+}  # 306
 # END
