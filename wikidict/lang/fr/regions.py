@@ -172,6 +172,8 @@ regions = {
     "Géorgie": "Géorgie",
     "Gérardmer": "Gérardmer",
     "HT": "Haïti",
+    "Harelbeke": "Harelbeke",
+    "Haute-Marne": "Haute-Marne",
     "Hawaï": "Hawaï",
     "Haïti": "Haïti",
     "Honduras": "Honduras",
@@ -450,5 +452,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 445
+}  # 447
 # END
