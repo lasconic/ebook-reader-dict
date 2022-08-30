@@ -577,6 +577,7 @@ langs = {
     "la": "latín",
     "la-lat": "latín tardío",
     "la-med": "latín medieval",
+    "la-neo": "neolatín",
     "la-vul": "latín vulgar",
     "lac": "lacandón",
     "lad": "judeoespañol",
@@ -1192,5 +1193,5 @@ langs = {
     "zu": "zulú",
     "zun": "zuñi",
     "zza": "zazaki",
-}  # 1,187
+}  # 1,188
 # END
