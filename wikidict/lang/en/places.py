@@ -2307,6 +2307,7 @@ recognized_placenames = {
     "region/Caucasus": {"article": "the", "display": ""},
     "region/Kanta-Häme": {"article": "", "display": "region/Tavastia Proper"},
     "region/Middle East": {"article": "the", "display": ""},
+    "region/New Territories": {"article": "the", "display": ""},
     "region/North Caucasus": {"article": "the", "display": ""},
     "region/North Savo": {"article": "", "display": "region/Northern Savonia"},
     "region/Northern Ostrobothnia": {"article": "", "display": "region/North Ostrobothnia"},
@@ -2363,5 +2364,5 @@ recognized_placenames = {
     "unincorporated territory/Northern Mariana Islands": {"article": "the", "display": ""},
     "unincorporated territory/United States Virgin Islands": {"article": "the", "display": ""},
     "valley/San Fernando Valley": {"article": "the", "display": ""},
-}  # 144
+}  # 145
 # END
