@@ -110,6 +110,7 @@ regions = {
     "Congo-Brazzaville": "Congo-Brazzaville",
     "Congo-Kinshasa": "Congo-Kinshasa",
     "Connacht": "Connacht",
+    "Connemara": "Connemara",
     "Cork": "Cork",
     "Corse": "Corse",
     "Corée": "Corée",
@@ -451,5 +452,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 446
+}  # 447
 # END
