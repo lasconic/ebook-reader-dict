@@ -45,7 +45,6 @@ regions = {
     "Auvergne": "Auvergne",
     "BE": "Belgique",
     "BF": "Burkina Faso",
-    "BR": "Brésil",
     "Bahamas": "Bahamas",
     "Bahia": "Bahia",
     "Baléares": "Baléares",
@@ -67,7 +66,6 @@ regions = {
     "Bray": "Pays de Bray",
     "Bretagne": "Bretagne",
     "Briollay": "Briollay",
-    "Brésil": "Brésil",
     "Burkina Faso": "Burkina Faso",
     "Burundi": "Burundi",
     "Bénin": "Bénin",
@@ -110,7 +108,6 @@ regions = {
     "Congo-Brazzaville": "Congo-Brazzaville",
     "Congo-Kinshasa": "Congo-Kinshasa",
     "Connacht": "Connacht",
-    "Connemara": "Connemara",
     "Cork": "Cork",
     "Corse": "Corse",
     "Corée": "Corée",
@@ -164,7 +161,6 @@ regions = {
     "Guatemala": "Guatemala",
     "Guerche-de-Bretagne": "La Guerche-de-Bretagne",
     "Guernesey": "Guernesey",
-    "Guinée": "Guinée",
     "Guinée équatoriale": "Guinée équatoriale",
     "Guyane": "Guyane",
     "Guéhenno": "Guéhenno",
@@ -401,7 +397,6 @@ regions = {
     "Trélazé": "Trélazé",
     "Tunisie": "Tunisie",
     "Turkménistan": "Turkménistan",
-    "Turquie": "Turquie",
     "Tyneside": "Tyneside",
     "UK": "Royaume-Uni",
     "US": "États-Unis",
@@ -452,5 +447,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 447
+}  # 442
 # END
