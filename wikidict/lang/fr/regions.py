@@ -111,10 +111,7 @@ regions = {
     "Congo-Kinshasa": "Congo-Kinshasa",
     "Connacht": "Connacht",
     "Connemara": "Connemara",
-    "Cork": "Cork",
-    "Corse": "Corse",
-    "Corée": "Corée",
-    "Corée du Sud": "Corée du Sud",
+    "Corée du Nord": "Corée du Nord",
     "Costa Rica": "Costa Rica",
     "Cotentin": "Cotentin",
     "Coxyde": "Coxyde",
@@ -188,8 +185,7 @@ regions = {
     "Jersey": "Jersey",
     "Johor-Selangor": "Johor-Selangor",
     "Jura": "Jura",
-    "KOR": "Corée du Sud",
-    "KR": "Corée du Sud",
+    "KP": "Corée du Nord",
     "Kabylie": "Kabylie",
     "Kazakhstan": "Kazakhstan",
     "Kerry": "Kerry",
@@ -293,6 +289,7 @@ regions = {
     "Ouessant": "Ouessant",
     "Ouzbékistan": "Ouzbékistan",
     "PE": "Pérou",
+    "PRK": "Corée du Nord",
     "PT": "Portugal",
     "Palerme": "Palerme",
     "Panama": "Panama",
@@ -449,5 +446,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 444
+}  # 441
 # END
