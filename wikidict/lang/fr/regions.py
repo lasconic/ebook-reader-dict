@@ -130,8 +130,6 @@ regions = {
     "Devon": "Somerset",
     "Dijonnais": "Dijonnais",
     "Diu": "Diu",
-    "Dominique": "Dominique",
-    "Doué-en-Anjou": "Doué-en-Anjou",
     "Drôme": "Drôme",
     "Dunkerque": "Dunkerque",
     "Durango": "Durango",
@@ -452,5 +450,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 447
+}  # 445
 # END
