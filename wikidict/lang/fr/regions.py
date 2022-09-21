@@ -73,7 +73,6 @@ regions = {
     "Bénin": "Bénin",
     "CA": "Canada",
     "CD": "Congo-Kinshasa",
-    "CG": "Congo-Brazzaville",
     "CH": "Suisse",
     "CI": "Côte d’Ivoire",
     "CL": "Chili",
@@ -99,6 +98,7 @@ regions = {
     "Chili": "Chili",
     "Chine": "Chine",
     "Cholet": "Cholet",
+    "Chungcheong": "Chungcheong",
     "Château-Gontier": "Château-Gontier",
     "Châtellerault": "Châtellerault",
     "Cois Fharraige": "Cois Fharraige",
@@ -106,7 +106,6 @@ regions = {
     "Combrailles": "Combrailles",
     "Commonwealth": "Commonwealth",
     "Comores": "Comores",
-    "Congo-Brazzaville": "Congo-Brazzaville",
     "Congo-Kinshasa": "Congo-Kinshasa",
     "Connacht": "Connacht",
     "Connemara": "Connemara",
@@ -451,5 +450,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 446
+}  # 445
 # END
