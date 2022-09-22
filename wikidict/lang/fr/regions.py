@@ -72,7 +72,6 @@ regions = {
     "Burundi": "Burundi",
     "Bénin": "Bénin",
     "CA": "Canada",
-    "CD": "Congo-Kinshasa",
     "CH": "Suisse",
     "CI": "Côte d’Ivoire",
     "CL": "Chili",
@@ -106,7 +105,6 @@ regions = {
     "Combrailles": "Combrailles",
     "Commonwealth": "Commonwealth",
     "Comores": "Comores",
-    "Congo-Kinshasa": "Congo-Kinshasa",
     "Connacht": "Connacht",
     "Connemara": "Connemara",
     "Cork": "Cork",
@@ -334,8 +332,6 @@ regions = {
     "Quercy": "Quercy",
     "Quintin": "Quintin",
     "Québec": "Québec",
-    "RDC": "Congo-Kinshasa",
-    "RDCongo": "Congo-Kinshasa",
     "Ramonchamp": "Ramonchamp",
     "Rhône-Alpes": "Rhône-Alpes",
     "Riau-Lingga": "Riau-Lingga",
@@ -346,7 +342,6 @@ regions = {
     "Roumanie": "Roumanie",
     "Royaume-Uni": "Royaume-Uni",
     "Russie": "Russie",
-    "République Démocratique du Congo": "Congo-Kinshasa",
     "République centrafricaine": "République centrafricaine",
     "République dominicaine": "République dominicaine",
     "République tchèque": "République tchèque",
@@ -404,6 +399,7 @@ regions = {
     "UK": "Royaume-Uni",
     "US": "États-Unis",
     "USA": "États-Unis",
+    "Ukraine": "Ukraine",
     "Ulster": "Ulster",
     "Uruguay": "Uruguay",
     "Valledolmo": "Valledolmo",
@@ -450,5 +446,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 445
+}  # 441
 # END
