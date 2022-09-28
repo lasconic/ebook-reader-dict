@@ -90,7 +90,9 @@ regions = {
     "Caucase": "Caucase",
     "Caux": "Pays de Caux",
     "Centrafrique": "Centrafrique",
-    "Charentes": "Charentes",
+    "Centre du Viêt Nam": "Centre du Viêt Nam",
+    "Champagne": "Champagne",
+    "Charente-Maritime": "Charente-Maritime",
     "Chef-Boutonne": "Chef-Boutonne",
     "Chili": "Chili",
     "Chine": "Chine",
@@ -449,5 +451,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 444
+}  # 446
 # END
