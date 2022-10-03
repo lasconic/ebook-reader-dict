@@ -73,7 +73,6 @@ regions = {
     "Bénin": "Bénin",
     "CA": "Canada",
     "CD": "Congo-Kinshasa",
-    "CG": "Congo-Brazzaville",
     "CH": "Suisse",
     "CI": "Côte d’Ivoire",
     "CL": "Chili",
@@ -105,9 +104,6 @@ regions = {
     "Cois Fharraige": "Cois Fharraige",
     "Colombie": "Colombie",
     "Combrailles": "Combrailles",
-    "Commonwealth": "Commonwealth",
-    "Comores": "Comores",
-    "Congo-Brazzaville": "Congo-Brazzaville",
     "Congo-Kinshasa": "Congo-Kinshasa",
     "Connacht": "Connacht",
     "Connemara": "Connemara",
@@ -453,5 +449,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 448
+}  # 444
 # END
