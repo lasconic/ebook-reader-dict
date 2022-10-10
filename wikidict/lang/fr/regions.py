@@ -77,11 +77,9 @@ regions = {
     "CH": "Suisse",
     "CI": "Côte d’Ivoire",
     "CL": "Chili",
-    "CM": "Cameroun",
     "Caccamo": "Caccamo",
     "Caltanissetta": "Caltanissetta",
     "Cambodge": "Cambodge",
-    "Cameroun": "Cameroun",
     "Canada": "Canada",
     "Canaries": "Canaries",
     "Caraïbes": "Caraïbes",
@@ -454,5 +452,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 449
+}  # 447
 # END
