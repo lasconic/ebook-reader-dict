@@ -95,11 +95,13 @@ regions = {
     "Champtocé": "Champtocé-sur-Loire",
     "Charente-Maritime": "Charente-Maritime",
     "Charentes": "Charentes",
+    "Chef-Boutonne": "Chef-Boutonne",
     "Chili": "Chili",
     "Chine": "Chine",
     "Cholet": "Cholet",
     "Chungcheong": "Chungcheong",
     "Château-Gontier": "Château-Gontier",
+    "Châtellerault": "Châtellerault",
     "Cois Fharraige": "Cois Fharraige",
     "Colombie": "Colombie",
     "Combrailles": "Combrailles",
@@ -452,5 +454,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 447
+}  # 449
 # END
