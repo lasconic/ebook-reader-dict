@@ -171,7 +171,6 @@ domain_templates = {
     "léporidés": "Mammalogie",
     "lézards": "Herpétologie",
     "machines": "Technologie",
-    "maladie": "Nosologie",
     "maladies": "Nosologie",
     "mammifère": "Zoologie",
     "mammifères": "Zoologie",
@@ -202,7 +201,6 @@ domain_templates = {
     "palmipèdes": "Ornithologie",
     "papillons": "Entomologie",
     "particules": "Physique",
-    "pathologie": "Nosologie",
     "pays": "Géographie",
     "percussions": "Musique",
     "perroquets": "Ornithologie",
@@ -227,7 +225,6 @@ domain_templates = {
     "primates": "Zoologie",
     "protocoles": "Réseaux",
     "protéines": "Biochimie",
-    "proverbe": "Proverbe",
     "proverbes": "Proverbe",
     "provinces": "Géographie",
     "prunes": "Botanique",
@@ -291,6 +288,7 @@ domain_templates = {
     "vins": "Œnologie",
     "virus": "Virologie",
     "voitures": "Automobile",
+    "véhicule": "Transport",
     "véhicules": "Transport",
     "vélos": "Cyclisme",
     "vêtements": "Habillement",
@@ -306,5 +304,5 @@ domain_templates = {
     "états": "État",
     "étoiles": "Astronomie",
     "îles": "Géographie",
-}  # 301
+}  # 299
 # END
