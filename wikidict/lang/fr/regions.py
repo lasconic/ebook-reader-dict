@@ -120,7 +120,6 @@ regions = {
     "Corée du Nord": "Corée du Nord",
     "Corée du Sud": "Corée du Sud",
     "Costa Rica": "Costa Rica",
-    "Cotentin": "Cotentin",
     "Coxyde": "Coxyde",
     "Cuba": "Cuba",
     "Côte d'Ivoire": "Côte d’Ivoire",
@@ -459,5 +458,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 454
+}  # 453
 # END
