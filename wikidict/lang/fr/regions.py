@@ -89,6 +89,8 @@ regions = {
     "Caraïbes": "Caraïbes",
     "Catalogne": "Catalogne",
     "Catane": "Catane",
+    "Caucase": "Caucase",
+    "Caux": "Pays de Caux",
     "Centrafrique": "Centrafrique",
     "Centre du Viêt Nam": "Centre du Viêt Nam",
     "Champagne": "Champagne",
@@ -454,5 +456,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 449
+}  # 451
 # END
