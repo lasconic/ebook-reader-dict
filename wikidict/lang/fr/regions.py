@@ -93,14 +93,12 @@ regions = {
     "Caux": "Pays de Caux",
     "Centrafrique": "Centrafrique",
     "Centre du Viêt Nam": "Centre du Viêt Nam",
-    "Champagne": "Champagne",
     "Chef-Boutonne": "Chef-Boutonne",
     "Chenou": "Chenou",
     "Chili": "Chili",
     "Chine": "Chine",
     "Cholet": "Cholet",
     "Chungcheong": "Chungcheong",
-    "Château-Gontier": "Château-Gontier",
     "Châtellerault": "Châtellerault",
     "Cois Fharraige": "Cois Fharraige",
     "Colombie": "Colombie",
@@ -453,5 +451,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 448
+}  # 446
 # END
