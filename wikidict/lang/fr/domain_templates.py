@@ -235,7 +235,6 @@ domain_templates = {
     "prunes": "Botanique",
     "préparations": "Cuisine",
     "psychotropes": "Psychotrope",
-    "pâtes": "Cuisine",
     "pâtes alimentaires": "Cuisine",
     "pâtisseries": "Pâtisserie",
     "pélicans": "Ornithologie",
@@ -312,5 +311,5 @@ domain_templates = {
     "états": "État",
     "étoiles": "Astronomie",
     "îles": "Géographie",
-}  # 307
+}  # 306
 # END
