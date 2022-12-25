@@ -113,6 +113,7 @@ domain_templates = {
     "documents": "Média",
     "drogues": "Pharmacologie",
     "délinquants": "Droit",
+    "délits": "Droit",
     "départements": "Géographie",
     "déserts": "Géographie",
     "détroit": "Géographie",
@@ -160,6 +161,7 @@ domain_templates = {
     "langages": "Informatique",
     "langues": "Linguistique",
     "lapins": "Zoologie",
+    "latinisme droit": "Latinisme en droit",
     "latinismes en droit": "Latinisme en droit",
     "lianes": "Botanique",
     "lieux imaginaires": "Géographie",
@@ -173,6 +175,7 @@ domain_templates = {
     "maladies": "Nosologie",
     "mammifère": "Zoologie",
     "mammifères": "Zoologie",
+    "marsupial": "Zoologie",
     "marsupiaux": "Zoologie",
     "mers": "Géographie",
     "meuble": "Mobilier",
@@ -292,8 +295,10 @@ domain_templates = {
     "vins": "Œnologie",
     "virus": "Virologie",
     "voitures": "Automobile",
+    "véhicule": "Transport",
     "véhicules": "Transport",
     "vélos": "Cyclisme",
+    "vête": "Habillement",
     "vêtements": "Habillement",
     "xénarthres": "Mammalogie",
     "échinodermes": "Zoologie",
@@ -307,5 +312,5 @@ domain_templates = {
     "états": "État",
     "étoiles": "Astronomie",
     "îles": "Géographie",
-}  # 302
+}  # 307
 # END
