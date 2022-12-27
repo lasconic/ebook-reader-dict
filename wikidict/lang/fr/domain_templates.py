@@ -175,6 +175,7 @@ domain_templates = {
     "maladies": "Nosologie",
     "mammifère": "Zoologie",
     "mammifères": "Zoologie",
+    "marsupial": "Zoologie",
     "marsupiaux": "Zoologie",
     "mers": "Géographie",
     "meuble": "Mobilier",
@@ -207,6 +208,7 @@ domain_templates = {
     "percussions": "Musique",
     "perroquets": "Ornithologie",
     "personnalités": "Anthroponyme",
+    "personnification": "Rhétorique",
     "personnifications": "Rhétorique",
     "peupliers": "Botanique",
     "phobies": "Médecine",
@@ -233,6 +235,7 @@ domain_templates = {
     "prunes": "Botanique",
     "préparations": "Cuisine",
     "psychotropes": "Psychotrope",
+    "pâtes": "Cuisine",
     "pâtes alimentaires": "Cuisine",
     "pâtisseries": "Pâtisserie",
     "pélicans": "Ornithologie",
@@ -247,6 +250,7 @@ domain_templates = {
     "reptiles": "Herpétologie",
     "requins": "Ichtyologie",
     "roches": "Pétrographie",
+    "rongeur": "Zoologie",
     "rongeurs": "Zoologie",
     "régions": "Toponyme",
     "saisons": "Calendrier",
@@ -308,5 +312,5 @@ domain_templates = {
     "états": "État",
     "étoiles": "Astronomie",
     "îles": "Géographie",
-}  # 303
+}  # 307
 # END
