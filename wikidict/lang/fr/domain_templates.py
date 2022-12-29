@@ -71,7 +71,6 @@ domain_templates = {
     "composants électroniques": "Électronique",
     "comtés": "Géographie",
     "condiments": "Cuisine",
-    "confiserie": "Confiserie",
     "confiseries": "Confiserie",
     "conifères": "Botanique",
     "constellations": "Astronomie",
@@ -123,7 +122,6 @@ domain_templates = {
     "ethnonymes": "Ethnonymie",
     "euphorbes": "Botanique",
     "familles de plantes": "Botanique",
-    "faux anglicisme": "Faux anglicisme",
     "faux anglicismes": "Faux anglicisme",
     "figure": "Rhétorique",
     "figures": "Rhétorique",
@@ -146,7 +144,6 @@ domain_templates = {
     "gâteaux": "Cuisine",
     "hérons": "Ornithologie",
     "ibis": "Ornithologie",
-    "iles": "Géographie",
     "insectes": "Entomologie",
     "instruments": "Musique",
     "instruments de mesure": "Métrologie",
@@ -161,7 +158,6 @@ domain_templates = {
     "langages": "Informatique",
     "langues": "Linguistique",
     "lapins": "Zoologie",
-    "latinisme droit": "Latinisme en droit",
     "latinismes en droit": "Latinisme en droit",
     "lianes": "Botanique",
     "lieux imaginaires": "Géographie",
@@ -175,7 +171,6 @@ domain_templates = {
     "maladies": "Nosologie",
     "mammifère": "Zoologie",
     "mammifères": "Zoologie",
-    "marsupial": "Zoologie",
     "marsupiaux": "Zoologie",
     "mers": "Géographie",
     "meuble": "Mobilier",
@@ -312,5 +307,5 @@ domain_templates = {
     "états": "État",
     "étoiles": "Astronomie",
     "îles": "Géographie",
-}  # 307
+}  # 302
 # END
