@@ -78,6 +78,7 @@ regions = {
     "CG": "Congo-Brazzaville",
     "CH": "Suisse",
     "CI": "Côte d’Ivoire",
+    "CL": "Chili",
     "CM": "Cameroun",
     "Caccamo": "Caccamo",
     "Caltanissetta": "Caltanissetta",
@@ -98,6 +99,8 @@ regions = {
     "Charentes": "Charentes",
     "Chef-Boutonne": "Chef-Boutonne",
     "Chenou": "Chenou",
+    "Chili": "Chili",
+    "Chine": "Chine",
     "Cholet": "Cholet",
     "Chungcheong": "Chungcheong",
     "Château-Gontier": "Château-Gontier",
@@ -453,5 +456,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 448
+}  # 451
 # END
