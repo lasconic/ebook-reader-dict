@@ -71,7 +71,6 @@ domain_templates = {
     "composants électroniques": "Électronique",
     "comtés": "Géographie",
     "condiments": "Cuisine",
-    "confiserie": "Confiserie",
     "confiseries": "Confiserie",
     "conifères": "Botanique",
     "constellations": "Astronomie",
@@ -229,7 +228,6 @@ domain_templates = {
     "primates": "Zoologie",
     "protocoles": "Réseaux",
     "protéines": "Biochimie",
-    "proverbe": "Proverbe",
     "proverbes": "Proverbe",
     "provinces": "Géographie",
     "prunes": "Botanique",
@@ -311,5 +309,5 @@ domain_templates = {
     "états": "État",
     "étoiles": "Astronomie",
     "îles": "Géographie",
-}  # 306
+}  # 304
 # END
