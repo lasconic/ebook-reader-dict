@@ -44,6 +44,7 @@ regions = {
     "Autriche": "Autriche",
     "Autunois": "Autunois",
     "Auvergne": "Auvergne",
+    "Avetrana": "Avetrana",
     "BE": "Belgique",
     "BF": "Burkina Faso",
     "BR": "Brésil",
@@ -263,6 +264,7 @@ regions = {
     "Moldavie": "Moldavie",
     "Mongolie": "Mongolie",
     "Montjean-sur-Loire": "Montjean-sur-Loire",
+    "Montréal": "Montréal",
     "Montsoreau": "Montsoreau",
     "Monténégro": "Monténégro",
     "Moselle": "Moselle",
@@ -456,5 +458,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 451
+}  # 453
 # END
