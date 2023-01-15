@@ -2350,6 +2350,7 @@ recognized_placenames = {
     "state/Mecklenburg-Western Pomerania": {"article": "", "display": "state/Mecklenburg-Vorpommern"},
     "state/Mexico": {"article": "", "display": "state/State of Mexico"},
     "state/State of Mexico": {"article": "the", "display": ""},
+    "territory/Australian Capital Territory": {"article": "the", "display": ""},
     "territory/British Indian Ocean Territory": {"article": "the", "display": ""},
     "territory/British Virgin Islands": {"article": "the", "display": ""},
     "territory/Cayman Islands": {"article": "the", "display": ""},
@@ -2369,5 +2370,5 @@ recognized_placenames = {
     "unincorporated territory/Northern Mariana Islands": {"article": "the", "display": ""},
     "unincorporated territory/United States Virgin Islands": {"article": "the", "display": ""},
     "valley/San Fernando Valley": {"article": "the", "display": ""},
-}  # 145
+}  # 146
 # END

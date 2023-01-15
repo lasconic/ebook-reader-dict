@@ -209,7 +209,6 @@ regions = {
     "Lancashire": "Lancashire",
     "Landegem": "Landegem",
     "Landivy": "Landivy",
-    "Languedoc": "Languedoc",
     "Languedoc-Roussillon": "Languedoc-Roussillon",
     "Laos": "Laos",
     "Le Fuilet": "Le Fuilet",
@@ -218,7 +217,6 @@ regions = {
     "Le Mans": "Le Mans",
     "Le Val-d’Ajol": "Le Val-d’Ajol",
     "Ledegem": "Ledegem",
-    "Lettonie": "Lettonie",
     "Liban": "Liban",
     "Licata": "Licata",
     "Liechtenstein": "Liechtenstein",
@@ -458,5 +456,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 453
+}  # 451
 # END
