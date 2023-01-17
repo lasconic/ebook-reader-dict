@@ -78,6 +78,7 @@ regions = {
     "CD": "Congo-Kinshasa",
     "CG": "Congo-Brazzaville",
     "CH": "Suisse",
+    "CI": "Côte d’Ivoire",
     "CL": "Chili",
     "CM": "Cameroun",
     "Caccamo": "Caccamo",
@@ -123,7 +124,9 @@ regions = {
     "Cotentin": "Cotentin",
     "Coxyde": "Coxyde",
     "Cuba": "Cuba",
+    "Côte d'Ivoire": "Côte d’Ivoire",
     "Côte d’Ivoire": "Côte d’Ivoire",
+    "Côte-d’Ivoire": "Côte d’Ivoire",
     "DE": "Allemagne",
     "DZ": "Algérie",
     "Danemark": "Danemark",
@@ -458,5 +461,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 453
+}  # 456
 # END
