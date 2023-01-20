@@ -238,6 +238,7 @@ regions = {
     "MU": "Île Maurice",
     "MX": "Mexique",
     "Madagascar": "Madagascar",
+    "Magavaira": "Magavaira",
     "Maghreb": "Maghreb",
     "Malaisie": "Malaisie",
     "Mali": "Mali",
@@ -461,5 +462,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 456
+}  # 457
 # END
