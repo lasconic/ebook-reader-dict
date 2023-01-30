@@ -150,6 +150,7 @@ domain_templates = {
     "insectes": "Entomologie",
     "instruments": "Musique",
     "instruments de mesure": "Métrologie",
+    "instruments de musique": "Musique",
     "instruments à cordes": "Musique",
     "instruments à vent": "Musique",
     "instruments électroniques": "Musique",
@@ -175,6 +176,7 @@ domain_templates = {
     "maladies": "Nosologie",
     "mammifère": "Zoologie",
     "mammifères": "Zoologie",
+    "marsupial": "Zoologie",
     "marsupiaux": "Zoologie",
     "mers": "Géographie",
     "meuble": "Mobilier",
@@ -312,5 +314,5 @@ domain_templates = {
     "états": "État",
     "étoiles": "Astronomie",
     "îles": "Géographie",
-}  # 307
+}  # 309
 # END
