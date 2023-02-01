@@ -117,7 +117,6 @@ regions = {
     "Cois Fharraige": "Cois Fharraige",
     "Colombie": "Colombie",
     "Combrailles": "Combrailles",
-    "Commonwealth": "Commonwealth",
     "Comores": "Comores",
     "Congo-Brazzaville": "Congo-Brazzaville",
     "Congo-Kinshasa": "Congo-Kinshasa",
@@ -489,5 +488,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 484
+}  # 483
 # END
