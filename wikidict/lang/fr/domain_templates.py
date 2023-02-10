@@ -179,9 +179,11 @@ domain_templates = {
     "marsupial": "Zoologie",
     "marsupiaux": "Zoologie",
     "mers": "Géographie",
+    "meuble": "Mobilier",
     "meubles": "Mobilier",
     "meubles héraldiques": "Héraldique",
     "minéraux": "Minéralogie",
+    "mobilier": "Mobilier",
     "mollusques": "Malacologie",
     "monnaies": "Numismatique",
     "montagnes": "Géographie",
@@ -213,6 +215,7 @@ domain_templates = {
     "phobies": "Médecine",
     "phyton": "Botanique",
     "pigeons": "Zoologie",
+    "plans d’eau": "Géographie",
     "plantes": "Botanique",
     "planètes": "Astronomie",
     "points cardinaux": "Géographie",
@@ -311,5 +314,5 @@ domain_templates = {
     "états": "État",
     "étoiles": "Astronomie",
     "îles": "Géographie",
-}  # 306
+}  # 309
 # END
