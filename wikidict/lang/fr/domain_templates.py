@@ -230,7 +230,6 @@ domain_templates = {
     "primates": "Zoologie",
     "protocoles": "Réseaux",
     "protéines": "Biochimie",
-    "proverbe": "Proverbe",
     "proverbes": "Proverbe",
     "provinces": "Géographie",
     "prunes": "Botanique",
@@ -240,7 +239,6 @@ domain_templates = {
     "pâtes alimentaires": "Cuisine",
     "pâtisseries": "Pâtisserie",
     "pélicans": "Ornithologie",
-    "périodes": "Géologie",
     "pêches": "Botanique",
     "quartiers": "Toponyme",
     "questions rhétoriques": "Questions rhétoriques",
@@ -314,5 +312,5 @@ domain_templates = {
     "états": "État",
     "étoiles": "Astronomie",
     "îles": "Géographie",
-}  # 309
+}  # 307
 # END
