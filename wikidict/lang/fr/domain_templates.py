@@ -230,6 +230,7 @@ domain_templates = {
     "primates": "Zoologie",
     "protocoles": "Réseaux",
     "protéines": "Biochimie",
+    "proverbe": "Proverbe",
     "proverbes": "Proverbe",
     "provinces": "Géographie",
     "prunes": "Botanique",
@@ -239,6 +240,7 @@ domain_templates = {
     "pâtes alimentaires": "Cuisine",
     "pâtisseries": "Pâtisserie",
     "pélicans": "Ornithologie",
+    "périodes": "Géologie",
     "pêches": "Botanique",
     "quartiers": "Toponyme",
     "questions rhétoriques": "Questions rhétoriques",
@@ -267,6 +269,7 @@ domain_templates = {
     "signalisations": "Sécurité routière",
     "singes": "Zoologie",
     "soldats": "Militaire",
+    "sols": "Pédologie",
     "sous-régions": "Toponyme",
     "spatules": "Ornithologie",
     "sportifs": "Sport",
@@ -312,5 +315,5 @@ domain_templates = {
     "états": "État",
     "étoiles": "Astronomie",
     "îles": "Géographie",
-}  # 307
+}  # 310
 # END
