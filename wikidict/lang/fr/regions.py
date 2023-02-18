@@ -82,6 +82,7 @@ regions = {
     "CG": "Congo-Brazzaville",
     "CH": "Suisse",
     "CI": "Côte d’Ivoire",
+    "CL": "Chili",
     "CM": "Cameroun",
     "Caccamo": "Caccamo",
     "Calimera": "Calimera",
@@ -505,5 +506,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 500
+}  # 501
 # END
