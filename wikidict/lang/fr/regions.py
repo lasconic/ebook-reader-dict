@@ -231,6 +231,7 @@ regions = {
     "Latiano": "Latiano",
     "Le Fuilet": "Le Fuilet",
     "Le Havre": "Le Havre",
+    "Le Longeron": "Le Longeron",
     "Le Mans": "Le Mans",
     "Le Val-d’Ajol": "Le Val-d’Ajol",
     "Lecce": "Lecce",
@@ -505,5 +506,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 500
+}  # 501
 # END
