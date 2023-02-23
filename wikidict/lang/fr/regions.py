@@ -499,11 +499,12 @@ regions = {
     "vannetais": "Vannetais",
     "Écosse": "Écosse",
     "Écouflant": "Écouflant",
+    "Égypte": "Égypte",
     "Émirats arabes unis": "Émirats arabes unis",
     "Équateur": "Équateur",
     "États-Unis": "États-Unis",
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 500
+}  # 501
 # END
