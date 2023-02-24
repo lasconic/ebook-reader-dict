@@ -88,7 +88,6 @@ domain_templates = {
     "cours d'eau": "Géographie",
     "cours d’eau": "Géographie",
     "couteaux": "Couteaux",
-    "couverture": "Couvertures",
     "couvertures": "Couvertures",
     "couvre-chefs": "Habillement",
     "crabes": "Zoologie",
@@ -315,5 +314,5 @@ domain_templates = {
     "états": "État",
     "étoiles": "Astronomie",
     "îles": "Géographie",
-}  # 310
+}  # 309
 # END
