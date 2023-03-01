@@ -690,6 +690,7 @@ langs = {
     "mxi": "mozárabe",
     "my": "birmano",
     "myn": "maya clásico",
+    "myn-pro": "protomaya",
     "myp": "pirahã",
     "myv": "erzya",
     "myx": "masaba",
@@ -1194,5 +1195,5 @@ langs = {
     "zu": "zulú",
     "zun": "zuñi",
     "zza": "zazaki",
-}  # 1,189
+}  # 1,190
 # END
