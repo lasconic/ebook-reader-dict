@@ -126,6 +126,7 @@ gramatica_short = {
     "n2n": "neutro de dois números",
     "n": "neutro",
     "nc2n": "neutro comum aos dois números",
+    "nc": "não comparável",
     "ndu": "neutro dual",
     "nd": "neutro dual",
     "nega": "de negação",
@@ -173,5 +174,5 @@ gramatica_short = {
     "vt": "transitivo direto",
     "vtdi": "transitivo direto e indireto",
     "vti": "transitivo indireto",
-}  # 168
+}  # 169
 # END
