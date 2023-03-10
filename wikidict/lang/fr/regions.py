@@ -455,7 +455,6 @@ regions = {
     "Turquie": "Turquie",
     "Tyneside": "Tyneside",
     "UK": "Royaume-Uni",
-    "URSS": "URSS",
     "US": "États-Unis",
     "USA": "États-Unis",
     "Ukraine": "Ukraine",
@@ -507,5 +506,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 502
+}  # 501
 # END
