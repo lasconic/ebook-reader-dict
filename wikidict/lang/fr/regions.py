@@ -6,7 +6,10 @@ Auto-generated with `python -m scripts`.
 # START
 regions = {
     "AAE": "Anglais afro-américain",
+    "AD": "Andorre",
     "AE": "Émirats arabes unis",
+    "AM": "Amérique latine",
+    "AR": "Argentine",
     "AT": "Autriche",
     "AU": "Australie",
     "AUS": "Australie",
@@ -80,6 +83,7 @@ regions = {
     "CH": "Suisse",
     "CI": "Côte d’Ivoire",
     "CL": "Chili",
+    "CM": "Cameroun",
     "Caccamo": "Caccamo",
     "Calimera": "Calimera",
     "Caltanissetta": "Caltanissetta",
@@ -135,6 +139,7 @@ regions = {
     "Côte d’Ivoire": "Côte d’Ivoire",
     "Côte-d’Ivoire": "Côte d’Ivoire",
     "DE": "Allemagne",
+    "DZ": "Algérie",
     "Danemark": "Danemark",
     "Dauphiné": "Dauphiné",
     "Devon": "Somerset",
@@ -458,11 +463,13 @@ regions = {
     "Valledolmo": "Valledolmo",
     "Vallée d'Yères": "Vallée d'Yères",
     "Var": "Var",
+    "Vaucluse": "Vaucluse",
     "Veglie": "Veglie",
     "Velay": "Velay",
     "Vendée": "Vendée",
     "Venezuela": "Venezuela",
     "Vern-d’Anjou": "Vern-d’Anjou",
+    "Vernantes": "Vernantes",
     "Vernole": "Vernole",
     "Vietnam": "Viêt Nam",
     "Vitré": "Vitré",
@@ -489,6 +496,7 @@ regions = {
     "région": "Régionalisme",
     "régional": "Régionalisme",
     "régionalisme": "Régionalisme",
+    "vannetais": "Vannetais",
     "Écosse": "Écosse",
     "Écouflant": "Écouflant",
     "Égypte": "Égypte",
@@ -498,5 +506,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 493
+}  # 501
 # END
