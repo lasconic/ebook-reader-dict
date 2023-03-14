@@ -176,6 +176,7 @@ domain_templates = {
     "maladies": "Nosologie",
     "mammifère": "Zoologie",
     "mammifères": "Zoologie",
+    "marsupial": "Zoologie",
     "marsupiaux": "Zoologie",
     "mers": "Géographie",
     "meuble": "Mobilier",
@@ -314,5 +315,5 @@ domain_templates = {
     "états": "État",
     "étoiles": "Astronomie",
     "îles": "Géographie",
-}  # 309
+}  # 310
 # END
