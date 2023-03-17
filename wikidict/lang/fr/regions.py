@@ -162,13 +162,9 @@ regions = {
     "FR-Cher": "Cher",
     "Faeto": "Faeto",
     "Fougères": "Fougères",
-    "Francavilla": "Francavilla Fontana",
     "France": "France",
     "Franche-Comté": "Franche-Comté",
     "GB": "Royaume-Uni",
-    "Gabon": "Gabon",
-    "Galatina": "Galatina",
-    "Galatone": "Galatone",
     "Gallipoli": "Gallipoli",
     "Galway": "Galway",
     "Gangwon": "Gangwon",
@@ -506,5 +502,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 501
+}  # 497
 # END
