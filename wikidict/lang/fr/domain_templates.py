@@ -213,7 +213,6 @@ domain_templates = {
     "personnifications": "Rhétorique",
     "peupliers": "Botanique",
     "phobies": "Médecine",
-    "phyton": "Botanique",
     "pigeons": "Zoologie",
     "plans d’eau": "Géographie",
     "plantes": "Botanique",
@@ -230,7 +229,6 @@ domain_templates = {
     "primates": "Zoologie",
     "protocoles": "Réseaux",
     "protéines": "Biochimie",
-    "proverbe": "Proverbe",
     "proverbes": "Proverbe",
     "provinces": "Géographie",
     "prunes": "Botanique",
@@ -315,5 +313,5 @@ domain_templates = {
     "états": "État",
     "étoiles": "Astronomie",
     "îles": "Géographie",
-}  # 310
+}  # 308
 # END
