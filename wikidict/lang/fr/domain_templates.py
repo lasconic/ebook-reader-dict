@@ -125,6 +125,7 @@ domain_templates = {
     "familles de plantes": "Botanique",
     "faux anglicisme": "Faux anglicisme",
     "faux anglicismes": "Faux anglicisme",
+    "figure": "Rhétorique",
     "figures": "Rhétorique",
     "flamants": "Ornithologie",
     "fleurs": "Botanique",
@@ -314,5 +315,5 @@ domain_templates = {
     "états": "État",
     "étoiles": "Astronomie",
     "îles": "Géographie",
-}  # 309
+}  # 310
 # END
