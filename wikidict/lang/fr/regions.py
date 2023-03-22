@@ -74,6 +74,7 @@ regions = {
     "Brindes": "Brindes",
     "Briollay": "Briollay",
     "Brésil": "Brésil",
+    "Bulgarie": "Bulgarie",
     "Burkina Faso": "Burkina Faso",
     "Burundi": "Burundi",
     "Bénin": "Bénin",
@@ -83,6 +84,7 @@ regions = {
     "CH": "Suisse",
     "CI": "Côte d’Ivoire",
     "CL": "Chili",
+    "CM": "Cameroun",
     "Caccamo": "Caccamo",
     "Calimera": "Calimera",
     "Caltanissetta": "Caltanissetta",
@@ -178,6 +180,7 @@ regions = {
     "Grande-Bretagne": "Royaume-Uni",
     "Grenoble": "Grenoble",
     "Grottaglie": "Grottaglie",
+    "Grèce": "Grèce",
     "Guadeloupe": "Guadeloupe",
     "Guatemala": "Guatemala",
     "Guerche-de-Bretagne": "La Guerche-de-Bretagne",
@@ -347,7 +350,6 @@ regions = {
     "Patois messin": "Patois messin",
     "Patois vosgien": "Patois vosgien",
     "Patù": "Patù",
-    "Pays basque": "Pays basque",
     "Pays de Galles": "Pays de Galles",
     "Pays-Bas": "Pays-Bas",
     "Pellouailles-les-Vignes": "Pellouailles-les-Vignes",
@@ -505,5 +507,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 500
+}  # 502
 # END
