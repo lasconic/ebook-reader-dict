@@ -162,6 +162,7 @@ regions = {
     "FR-85": "Vendée",
     "FR-Cher": "Cher",
     "Faeto": "Faeto",
+    "Fontainebleau": "Fontainebleau",
     "Fougères": "Fougères",
     "Francavilla": "Francavilla Fontana",
     "France": "France",
@@ -508,5 +509,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 503
+}  # 504
 # END
