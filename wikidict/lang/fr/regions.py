@@ -104,10 +104,6 @@ regions = {
     "Cavallino": "Cavallino",
     "Centrafrique": "Centrafrique",
     "Centre du Viêt Nam": "Centre du Viêt Nam",
-    "Champagne": "Champagne",
-    "Champtocé": "Champtocé-sur-Loire",
-    "Charente-Maritime": "Charente-Maritime",
-    "Charentes": "Charentes",
     "Chef-Boutonne": "Chef-Boutonne",
     "Chenou": "Chenou",
     "Chili": "Chili",
@@ -509,5 +505,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 504
+}  # 500
 # END
