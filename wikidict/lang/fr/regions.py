@@ -112,7 +112,6 @@ regions = {
     "Chenou": "Chenou",
     "Chili": "Chili",
     "Chine": "Chine",
-    "Cholet": "Cholet",
     "Chungcheong": "Chungcheong",
     "Château-Gontier": "Château-Gontier",
     "Châtellerault": "Châtellerault",
@@ -258,6 +257,7 @@ regions = {
     "MU": "Île Maurice",
     "MX": "Mexique",
     "Madagascar": "Madagascar",
+    "Magavaira": "Magavaira",
     "Maghreb": "Maghreb",
     "Maglie": "Maglie",
     "Malaisie": "Malaisie",
@@ -285,6 +285,7 @@ regions = {
     "Midi toulousain": "Midi toulousain",
     "Mirebeau": "Mirebeau",
     "Missouri": "Missouri",
+    "Modica": "Modica",
     "Moldavie": "Moldavie",
     "Monaco": "Monaco",
     "Mongolie": "Mongolie",
@@ -507,5 +508,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 502
+}  # 503
 # END
