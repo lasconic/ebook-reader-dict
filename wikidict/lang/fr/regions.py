@@ -112,6 +112,7 @@ regions = {
     "Chenou": "Chenou",
     "Chili": "Chili",
     "Chine": "Chine",
+    "Cholet": "Cholet",
     "Chungcheong": "Chungcheong",
     "Château-Gontier": "Château-Gontier",
     "Châtellerault": "Châtellerault",
@@ -508,5 +509,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 503
+}  # 504
 # END
