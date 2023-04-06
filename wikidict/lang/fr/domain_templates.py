@@ -52,6 +52,7 @@ domain_templates = {
     "carnivores": "Zoologie",
     "cervidés": "Zoologie",
     "chameaux": "Zoologie",
+    "champignon": "Mycologie",
     "champignons": "Mycologie",
     "chats": "Zoologie",
     "chaussures": "Vêtement",
@@ -149,6 +150,7 @@ domain_templates = {
     "insectes": "Entomologie",
     "instruments": "Musique",
     "instruments de mesure": "Métrologie",
+    "instruments de musique": "Musique",
     "instruments à cordes": "Musique",
     "instruments à vent": "Musique",
     "instruments électroniques": "Musique",
@@ -172,6 +174,7 @@ domain_templates = {
     "machines": "Technologie",
     "maladie": "Nosologie",
     "maladies": "Nosologie",
+    "mammifère": "Zoologie",
     "mammifères": "Zoologie",
     "marsupial": "Zoologie",
     "marsupiaux": "Zoologie",
@@ -210,6 +213,7 @@ domain_templates = {
     "personnifications": "Rhétorique",
     "peupliers": "Botanique",
     "phobies": "Médecine",
+    "phyton": "Botanique",
     "pigeons": "Zoologie",
     "plans d’eau": "Géographie",
     "plantes": "Botanique",
@@ -313,5 +317,5 @@ domain_templates = {
     "états": "État",
     "étoiles": "Astronomie",
     "îles": "Géographie",
-}  # 308
+}  # 312
 # END
