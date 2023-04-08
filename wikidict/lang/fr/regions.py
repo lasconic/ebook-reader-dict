@@ -70,8 +70,6 @@ regions = {
     "Bourbonnais": "Bourbonnais",
     "Bourgogne": "Bourgogne",
     "Bray": "Pays de Bray",
-    "Bretagne": "Bretagne",
-    "Bretagne celtique": "Bretagne celtique",
     "Brindes": "Brindes",
     "Briollay": "Briollay",
     "Brésil": "Brésil",
@@ -109,6 +107,8 @@ regions = {
     "Champtocé": "Champtocé-sur-Loire",
     "Charente-Maritime": "Charente-Maritime",
     "Charentes": "Charentes",
+    "Chef-Boutonne": "Chef-Boutonne",
+    "Chenou": "Chenou",
     "Chili": "Chili",
     "Chine": "Chine",
     "Cholet": "Cholet",
@@ -159,6 +159,7 @@ regions = {
     "Europe": "Europe",
     "FR": "France",
     "FR-85": "Vendée",
+    "FR-Cher": "Cher",
     "Faeto": "Faeto",
     "Fontainebleau": "Fontainebleau",
     "Fougères": "Fougères",
@@ -507,5 +508,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 502
+}  # 503
 # END
