@@ -102,6 +102,8 @@ regions = {
     "Catane": "Catane",
     "Caucase": "Caucase",
     "Caux": "Pays de Caux",
+    "Cavallino": "Cavallino",
+    "Centrafrique": "Centrafrique",
     "Centre du Viêt Nam": "Centre du Viêt Nam",
     "Champagne": "Champagne",
     "Champtocé": "Champtocé-sur-Loire",
@@ -508,5 +510,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 503
+}  # 505
 # END
