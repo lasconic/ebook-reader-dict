@@ -170,7 +170,6 @@ regions = {
     "Franche-Comté": "Franche-Comté",
     "GB": "Royaume-Uni",
     "Gabon": "Gabon",
-    "Galatina": "Galatina",
     "Galatone": "Galatone",
     "Gallipoli": "Gallipoli",
     "Galway": "Galway",
@@ -510,5 +509,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 505
+}  # 504
 # END
