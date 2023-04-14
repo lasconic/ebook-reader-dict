@@ -67,6 +67,7 @@ domain_templates = {
     "cocktails": "Boisson",
     "coléoptères": "Entomologie",
     "commerces": "Commerce",
+    "composants": "Électronique",
     "composants électriques": "Électricité",
     "composants électroniques": "Électronique",
     "comtés": "Géographie",
@@ -88,6 +89,7 @@ domain_templates = {
     "cours d'eau": "Géographie",
     "cours d’eau": "Géographie",
     "couteaux": "Couteaux",
+    "couverture": "Couvertures",
     "couvertures": "Couvertures",
     "couvre-chefs": "Habillement",
     "crabes": "Zoologie",
@@ -317,5 +319,5 @@ domain_templates = {
     "états": "État",
     "étoiles": "Astronomie",
     "îles": "Géographie",
-}  # 312
+}  # 314
 # END
