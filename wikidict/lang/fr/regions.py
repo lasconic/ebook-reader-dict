@@ -175,6 +175,7 @@ regions = {
     "Gallipoli": "Gallipoli",
     "Galway": "Galway",
     "Gangwon": "Gangwon",
+    "Gascogne": "Gascogne",
     "Gaspésie": "Gaspésie",
     "Gaume": "Gaume",
     "Ghana": "Ghana",
@@ -509,5 +510,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 504
+}  # 505
 # END
