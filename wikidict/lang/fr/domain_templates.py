@@ -181,11 +181,9 @@ domain_templates = {
     "marsupial": "Zoologie",
     "marsupiaux": "Zoologie",
     "mers": "Géographie",
-    "meuble": "Mobilier",
     "meubles": "Mobilier",
     "meubles héraldiques": "Héraldique",
     "minéraux": "Minéralogie",
-    "mobilier": "Mobilier",
     "mollusques": "Malacologie",
     "monnaies": "Numismatique",
     "montagnes": "Géographie",
@@ -319,5 +317,5 @@ domain_templates = {
     "états": "État",
     "étoiles": "Astronomie",
     "îles": "Géographie",
-}  # 314
+}  # 312
 # END
