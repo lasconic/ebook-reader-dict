@@ -49,7 +49,6 @@ domain_templates = {
     "cantons": "Géographie",
     "capitales": "Géographie",
     "caprins": "Zoologie",
-    "carnivore": "Zoologie",
     "carnivores": "Zoologie",
     "cervidés": "Zoologie",
     "chameaux": "Zoologie",
@@ -319,5 +318,5 @@ domain_templates = {
     "états": "État",
     "étoiles": "Astronomie",
     "îles": "Géographie",
-}  # 314
+}  # 313
 # END
