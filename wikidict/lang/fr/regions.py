@@ -79,6 +79,7 @@ regions = {
     "Burkina Faso": "Burkina Faso",
     "Burundi": "Burundi",
     "Bénin": "Bénin",
+    "CA": "Canada",
     "CD": "Congo-Kinshasa",
     "CG": "Congo-Brazzaville",
     "CH": "Suisse",
@@ -90,6 +91,8 @@ regions = {
     "Caltanissetta": "Caltanissetta",
     "Cambodge": "Cambodge",
     "Cameroun": "Cameroun",
+    "Canada": "Canada",
+    "Canaries": "Canaries",
     "Caraïbes": "Caraïbes",
     "Carovigno": "Carovigno",
     "Castri di Lecce": "Castri di Lecce",
@@ -507,5 +510,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 502
+}  # 505
 # END
