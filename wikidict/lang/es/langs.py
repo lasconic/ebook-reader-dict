@@ -916,6 +916,7 @@ langs = {
     "rup": "arumano",
     "ruq": "meglenorrumano",
     "rw": "ruandés",
+    "ryu": "okinawense",
     "sa": "sánscrito",
     "sad": "sandavés",
     "sah": "yakuto",
@@ -1195,5 +1196,5 @@ langs = {
     "zu": "zulú",
     "zun": "zuñi",
     "zza": "zazaki",
-}  # 1,190
+}  # 1,191
 # END
