@@ -781,6 +781,7 @@ langs = {
     "oj": "ojibwe",
     "ojp": "japonés antiguo",
     "okm": "coreano medio",
+    "oko": "coreano antiguo",
     "olt": "lituano antiguo",
     "om": "oromo",
     "omc": "mochica",
@@ -1197,5 +1198,5 @@ langs = {
     "zu": "zulú",
     "zun": "zuñi",
     "zza": "zazaki",
-}  # 1,192
+}  # 1,193
 # END
