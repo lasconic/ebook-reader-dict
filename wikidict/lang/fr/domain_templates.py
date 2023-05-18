@@ -126,6 +126,7 @@ domain_templates = {
     "familles de plantes": "Botanique",
     "faux anglicisme": "Faux anglicisme",
     "faux anglicismes": "Faux anglicisme",
+    "figure": "Rhétorique",
     "figures": "Rhétorique",
     "flamants": "Ornithologie",
     "fleurs": "Botanique",
@@ -214,6 +215,7 @@ domain_templates = {
     "personnifications": "Rhétorique",
     "peupliers": "Botanique",
     "phobies": "Médecine",
+    "phyton": "Botanique",
     "pigeons": "Zoologie",
     "plans d’eau": "Géographie",
     "plantes": "Botanique",
@@ -317,5 +319,5 @@ domain_templates = {
     "états": "État",
     "étoiles": "Astronomie",
     "îles": "Géographie",
-}  # 312
+}  # 314
 # END
