@@ -72,6 +72,7 @@ domain_templates = {
     "composants électroniques": "Électronique",
     "comtés": "Géographie",
     "condiments": "Cuisine",
+    "confiserie": "Confiserie",
     "confiseries": "Confiserie",
     "conifères": "Botanique",
     "constellations": "Astronomie",
@@ -194,6 +195,7 @@ domain_templates = {
     "médicaments": "Pharmacologie",
     "méduses": "Zoologie",
     "métaplasmes": "Linguistique",
+    "métiers": "Métier",
     "nuages": "Météorologie",
     "nymphes": "Mythologie",
     "oies": "Ornithologie",
@@ -241,6 +243,7 @@ domain_templates = {
     "pâtes alimentaires": "Cuisine",
     "pâtisseries": "Pâtisserie",
     "pélicans": "Ornithologie",
+    "périodes": "Géologie",
     "pêches": "Botanique",
     "quartiers": "Toponyme",
     "questions rhétoriques": "Questions rhétoriques",
@@ -317,5 +320,5 @@ domain_templates = {
     "états": "État",
     "étoiles": "Astronomie",
     "îles": "Géographie",
-}  # 312
+}  # 315
 # END
