@@ -183,6 +183,7 @@ langs = {
     "cbk-zam": "chabacano de Zamboanga",
     "cbr": "kashibo",
     "cbs": "cashinahua",
+    "cbt": "shawi",
     "ccc": "chamicuro",
     "cco": "chinanteco serrano",
     "ccr": "cacaopera",
@@ -1198,5 +1199,5 @@ langs = {
     "zu": "zulú",
     "zun": "zuñi",
     "zza": "zazaki",
-}  # 1,193
+}  # 1,194
 # END
