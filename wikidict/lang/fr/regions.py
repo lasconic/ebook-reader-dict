@@ -221,6 +221,7 @@ regions = {
     "Kazakhstan": "Kazakhstan",
     "Kerry": "Kerry",
     "Keveona": "Keveona",
+    "Kirghizistan": "Kirghizistan",
     "Kitigan Zibi": "Kitigan Zibi",
     "Kortemark": "Kortemark",
     "Koupuana": "Koupuana",
@@ -513,5 +514,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 508
+}  # 509
 # END
