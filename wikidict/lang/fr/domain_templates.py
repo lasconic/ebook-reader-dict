@@ -124,6 +124,7 @@ domain_templates = {
     "ethnonymes": "Ethnonymie",
     "euphorbes": "Botanique",
     "familles de plantes": "Botanique",
+    "faux anglicisme": "Faux anglicisme",
     "faux anglicismes": "Faux anglicisme",
     "figure": "Rhétorique",
     "figures": "Rhétorique",
@@ -177,6 +178,7 @@ domain_templates = {
     "maladies": "Nosologie",
     "mammifère": "Zoologie",
     "mammifères": "Zoologie",
+    "marsupial": "Zoologie",
     "marsupiaux": "Zoologie",
     "mers": "Géographie",
     "meuble": "Mobilier",
@@ -210,6 +212,7 @@ domain_templates = {
     "percussions": "Musique",
     "perroquets": "Ornithologie",
     "personnalités": "Anthroponyme",
+    "personnification": "Rhétorique",
     "personnifications": "Rhétorique",
     "peupliers": "Botanique",
     "phobies": "Médecine",
@@ -317,5 +320,5 @@ domain_templates = {
     "états": "État",
     "étoiles": "Astronomie",
     "îles": "Géographie",
-}  # 312
+}  # 315
 # END

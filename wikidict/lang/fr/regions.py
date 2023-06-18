@@ -455,7 +455,6 @@ regions = {
     "Transnistrie": "Transnistrie",
     "Tricase": "Tricase",
     "Tronchiennes": "Tronchiennes",
-    "Trélazé": "Trélazé",
     "Tuglie": "Tuglie",
     "Tunisie": "Tunisie",
     "Turkménistan": "Turkménistan",
@@ -514,5 +513,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 509
+}  # 508
 # END
