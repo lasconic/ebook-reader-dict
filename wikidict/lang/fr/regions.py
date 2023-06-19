@@ -72,10 +72,7 @@ regions = {
     "Bray": "Pays de Bray",
     "Bretagne": "Bretagne",
     "Bretagne celtique": "Bretagne celtique",
-    "Brindes": "Brindes",
-    "Briollay": "Briollay",
     "Brésil": "Brésil",
-    "Bulgarie": "Bulgarie",
     "Burkina Faso": "Burkina Faso",
     "Burundi": "Burundi",
     "Bénin": "Bénin",
@@ -455,6 +452,7 @@ regions = {
     "Transnistrie": "Transnistrie",
     "Tricase": "Tricase",
     "Tronchiennes": "Tronchiennes",
+    "Trélazé": "Trélazé",
     "Tuglie": "Tuglie",
     "Tunisie": "Tunisie",
     "Turkménistan": "Turkménistan",
@@ -513,5 +511,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 508
+}  # 506
 # END
