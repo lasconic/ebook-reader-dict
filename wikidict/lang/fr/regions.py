@@ -72,7 +72,10 @@ regions = {
     "Bray": "Pays de Bray",
     "Bretagne": "Bretagne",
     "Bretagne celtique": "Bretagne celtique",
+    "Brindes": "Brindes",
+    "Briollay": "Briollay",
     "Brésil": "Brésil",
+    "Bulgarie": "Bulgarie",
     "Burkina Faso": "Burkina Faso",
     "Burundi": "Burundi",
     "Bénin": "Bénin",
@@ -511,5 +514,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 506
+}  # 509
 # END

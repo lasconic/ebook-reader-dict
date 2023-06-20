@@ -17,18 +17,6 @@ form_of_templates = {
         "text": "abstract noun of",
         "dot": False,
     },
-    "accusative of": {
-        "text": "accusative of",
-        "dot": False,
-    },
-    "accusative plural of": {
-        "text": "accusative plural of",
-        "dot": False,
-    },
-    "accusative singular of": {
-        "text": "accusative singular of",
-        "dot": False,
-    },
     "acronym of": {
         "text": "Acronym of",
         "dot": True,
@@ -46,10 +34,6 @@ form_of_templates = {
         "dot": False,
     },
     "alternative case form of": {
-        "text": "Alternative letter-case form of",
-        "dot": False,
-    },
-    "alt caps": {
         "text": "Alternative letter-case form of",
         "dot": False,
     },
@@ -74,7 +58,7 @@ form_of_templates = {
         "dot": False,
     },
     "alternative reconstruction of": {
-        "text": "alternative reconstruction of",
+        "text": "Alternative reconstruction of",
         "dot": False,
     },
     "alternative spelling of": {
@@ -177,18 +161,6 @@ form_of_templates = {
         "text": "Dated spelling of",
         "dot": True,
     },
-    "dative of": {
-        "text": "dative of",
-        "dot": False,
-    },
-    "dative plural of": {
-        "text": "dative plural of",
-        "dot": False,
-    },
-    "dative singular of": {
-        "text": "dative singular of",
-        "dot": False,
-    },
     "definite singular of": {
         "text": "definite singular of",
         "dot": False,
@@ -253,14 +225,6 @@ form_of_templates = {
         "text": "Euphemistic form of",
         "dot": True,
     },
-    "euphemistic spelling of": {
-        "text": "Euphemistic spelling of",
-        "dot": True,
-    },
-    "euph sp": {
-        "text": "Euphemistic spelling of",
-        "dot": True,
-    },
     "eye dialect of": {
         "text": "Eye dialect spelling of",
         "dot": True,
@@ -303,18 +267,6 @@ form_of_templates = {
     },
     "future participle of": {
         "text": "future participle of",
-        "dot": False,
-    },
-    "genitive of": {
-        "text": "genitive of",
-        "dot": False,
-    },
-    "genitive plural of": {
-        "text": "genitive plural of",
-        "dot": False,
-    },
-    "genitive singular of": {
-        "text": "genitive singular of",
         "dot": False,
     },
     "gerund of": {
@@ -461,10 +413,6 @@ form_of_templates = {
         "text": "nominalization of",
         "dot": False,
     },
-    "nominative plural of": {
-        "text": "nominative plural of",
-        "dot": False,
-    },
     "nonstandard form of": {
         "text": "Nonstandard form of",
         "dot": True,
@@ -605,6 +553,14 @@ form_of_templates = {
         "text": "Romanization of",
         "dot": False,
     },
+    "scribal abbreviation of": {
+        "text": "Scribal abbreviation of",
+        "dot": True,
+    },
+    "scrib of": {
+        "text": "Scribal abbreviation of",
+        "dot": True,
+    },
     "short for": {
         "text": "Short for",
         "dot": True,
@@ -705,13 +661,5 @@ form_of_templates = {
         "text": "inflection of:",
         "dot": False,
     },
-    "vocative plural of": {
-        "text": "vocative plural of",
-        "dot": False,
-    },
-    "vocative singular of": {
-        "text": "vocative singular of",
-        "dot": False,
-    },
-}  # 177
+}  # 164
 # END
