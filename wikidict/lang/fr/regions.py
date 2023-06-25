@@ -49,6 +49,7 @@ regions = {
     "Avetrana": "Avetrana",
     "BE": "Belgique",
     "BF": "Burkina Faso",
+    "BR": "Brésil",
     "Bahamas": "Bahamas",
     "Bahia": "Bahia",
     "Baléares": "Baléares",
@@ -73,6 +74,7 @@ regions = {
     "Bretagne celtique": "Bretagne celtique",
     "Brindes": "Brindes",
     "Briollay": "Briollay",
+    "Brésil": "Brésil",
     "Bulgarie": "Bulgarie",
     "Burkina Faso": "Burkina Faso",
     "Burundi": "Burundi",
@@ -101,7 +103,6 @@ regions = {
     "Caucase": "Caucase",
     "Caux": "Pays de Caux",
     "Cavallino": "Cavallino",
-    "Centrafrique": "Centrafrique",
     "Centre du Viêt Nam": "Centre du Viêt Nam",
     "Champagne": "Champagne",
     "Champtocé": "Champtocé-sur-Loire",
@@ -112,7 +113,6 @@ regions = {
     "Chili": "Chili",
     "Chine": "Chine",
     "Cholet": "Cholet",
-    "Chungcheong": "Chungcheong",
     "Château-Gontier": "Château-Gontier",
     "Châtellerault": "Châtellerault",
     "Cois Fharraige": "Cois Fharraige",
@@ -122,7 +122,6 @@ regions = {
     "Comores": "Comores",
     "Congo-Brazzaville": "Congo-Brazzaville",
     "Congo-Kinshasa": "Congo-Kinshasa",
-    "Connacht": "Connacht",
     "Connemara": "Connemara",
     "Corigliano d'Otranto": "Corigliano d'Otranto",
     "Cork": "Cork",
@@ -512,5 +511,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 507
+}  # 506
 # END
