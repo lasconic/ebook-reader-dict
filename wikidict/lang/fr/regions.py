@@ -67,8 +67,10 @@ regions = {
     "Bolivie": "Bolivie",
     "Bordelais": "Bordelais",
     "Boston": "Boston",
+    "Bourbonnais": "Bourbonnais",
     "Bourgogne": "Bourgogne",
     "Bray": "Pays de Bray",
+    "Bretagne": "Bretagne",
     "Bretagne celtique": "Bretagne celtique",
     "Brindes": "Brindes",
     "Briollay": "Briollay",
@@ -85,7 +87,6 @@ regions = {
     "CL": "Chili",
     "CM": "Cameroun",
     "Caccamo": "Caccamo",
-    "Calimera": "Calimera",
     "Caltanissetta": "Caltanissetta",
     "Cambodge": "Cambodge",
     "Cameroun": "Cameroun",
@@ -512,5 +513,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 507
+}  # 508
 # END
