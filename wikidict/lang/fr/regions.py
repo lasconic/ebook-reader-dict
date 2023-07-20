@@ -94,10 +94,12 @@ regions = {
     "Canada": "Canada",
     "Canaries": "Canaries",
     "Caraïbes": "Caraïbes",
+    "Carovigno": "Carovigno",
     "Castri di Lecce": "Castri di Lecce",
     "Castrignano de’ Greci": "Castrignano de’ Greci",
     "Castro": "Castro",
     "Catalogne": "Catalogne",
+    "Catane": "Catane",
     "Caucase": "Caucase",
     "Caux": "Pays de Caux",
     "Cavallino": "Cavallino",
@@ -513,5 +515,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 508
+}  # 510
 # END
