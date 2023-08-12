@@ -48,6 +48,7 @@ regions = {
     "Auvergne": "Auvergne",
     "Avetrana": "Avetrana",
     "BE": "Belgique",
+    "BF": "Burkina Faso",
     "BR": "Brésil",
     "Bahamas": "Bahamas",
     "Bahia": "Bahia",
@@ -75,6 +76,7 @@ regions = {
     "Briollay": "Briollay",
     "Brésil": "Brésil",
     "Bulgarie": "Bulgarie",
+    "Burkina Faso": "Burkina Faso",
     "Burundi": "Burundi",
     "Bénin": "Bénin",
     "CA": "Canada",
@@ -516,5 +518,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 511
+}  # 513
 # END
