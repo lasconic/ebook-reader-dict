@@ -17,6 +17,7 @@ domain_templates = {
     "amphibiens": "Zoologie",
     "anciennes divisions": "Histoire",
     "anciennes localités": "Histoire",
+    "anglicisme informatique": "Anglicisme informatique",
     "anglicismes informatiques": "Anglicisme informatique",
     "animaux": "Zoologie",
     "antilopes": "Zoologie",
@@ -48,6 +49,7 @@ domain_templates = {
     "cantons": "Géographie",
     "capitales": "Géographie",
     "caprins": "Zoologie",
+    "carnivore": "Zoologie",
     "carnivores": "Zoologie",
     "cervidés": "Zoologie",
     "chameaux": "Zoologie",
@@ -215,6 +217,7 @@ domain_templates = {
     "phobies": "Médecine",
     "phyton": "Botanique",
     "pigeons": "Zoologie",
+    "plans d’eau": "Géographie",
     "plantes": "Botanique",
     "planètes": "Astronomie",
     "points cardinaux": "Géographie",
@@ -315,5 +318,5 @@ domain_templates = {
     "états": "État",
     "étoiles": "Astronomie",
     "îles": "Géographie",
-}  # 310
+}  # 313
 # END
