@@ -220,6 +220,7 @@ escopos = {
     "mg": "Minas Gerais",
     "miguxês": "internetês",
     "minas gerais": "Minas Gerais",
+    "mineralogia": "mineralogia",
     "minho": "Minho",
     "mitologia grega": "mitologia",
     "mitologia romana": "mitologia",
@@ -375,5 +376,5 @@ escopos = {
     "áfrica do sul": "África do Sul",
     "árvore": "botânica",
     "índia": "{{#ifeq: {{{1}}}|pt|Índia|Índia}}",
-}  # 370
+}  # 371
 # END

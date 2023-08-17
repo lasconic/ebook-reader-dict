@@ -5534,6 +5534,7 @@ langs = {
     "twd": "tweants",
     "twe": "teiwa",
     "twf": "tiwa du Nord",
+    "twh": "tai don",
     "twm": "monba",
     "two": "tswapong",
     "twq": "tasawaq",
@@ -6407,7 +6408,7 @@ langs = {
     "zza": "zazaki",
     "zzj": "zhuang de Zuojiang",
     "èque": "èque",
-}  # 6,402
+}  # 6,403
 # END
 
 # Missing ones (to be removed when available on the Wiktionary languages pages)
