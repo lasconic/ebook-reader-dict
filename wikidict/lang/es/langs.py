@@ -281,6 +281,7 @@ langs = {
     "dar": "darguano",
     "day": "dayaco",
     "ddo": "dido",
+    "de": "alemán",
     "del": "delaware",
     "den": "awokanak",
     "dgr": "dogrib",
@@ -1203,5 +1204,5 @@ langs = {
     "zu": "zulú",
     "zun": "zuñi",
     "zza": "zazaki",
-}  # 1,198
+}  # 1,199
 # END
