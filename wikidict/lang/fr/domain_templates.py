@@ -178,7 +178,6 @@ domain_templates = {
     "maladies": "Nosologie",
     "mammifère": "Zoologie",
     "mammifères": "Zoologie",
-    "marsupial": "Zoologie",
     "marsupiaux": "Zoologie",
     "mers": "Géographie",
     "meuble": "Mobilier",
@@ -186,7 +185,7 @@ domain_templates = {
     "meubles héraldiques": "Héraldique",
     "minéraux": "Minéralogie",
     "mobilier": "Mobilier",
-    "mollusques": "malacologie",
+    "mollusques": "Malacologie",
     "monnaies": "Numismatique",
     "montagnes": "Géographie",
     "mouches": "Entomologie",
@@ -253,7 +252,6 @@ domain_templates = {
     "reptiles": "Herpétologie",
     "requins": "Ichtyologie",
     "roches": "Pétrographie",
-    "rongeur": "Zoologie",
     "rongeurs": "Zoologie",
     "régions": "Toponyme",
     "saisons": "Calendrier",
@@ -318,5 +316,5 @@ domain_templates = {
     "états": "État",
     "étoiles": "Astronomie",
     "îles": "Géographie",
-}  # 313
+}  # 311
 # END
