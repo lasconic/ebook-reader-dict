@@ -53,7 +53,6 @@ domain_templates = {
     "carnivores": "Zoologie",
     "cervidés": "Zoologie",
     "chameaux": "Zoologie",
-    "champignon": "Mycologie",
     "champignons": "Mycologie",
     "chats": "Zoologie",
     "chaussures": "Vêtement",
@@ -86,7 +85,6 @@ domain_templates = {
     "couche session": "Couche session",
     "couche transport": "Couche transport",
     "couleurs": "Colorimétrie",
-    "cours d'eau": "Géographie",
     "cours d’eau": "Géographie",
     "couteaux": "Couteaux",
     "couverture": "Couvertures",
@@ -316,5 +314,5 @@ domain_templates = {
     "états": "État",
     "étoiles": "Astronomie",
     "îles": "Géographie",
-}  # 311
+}  # 309
 # END
