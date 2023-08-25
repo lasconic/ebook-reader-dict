@@ -1738,7 +1738,7 @@ langs = {
     "geb": "kire",
     "geg": "gengle",
     "geh": "allemand huttérite",
-    "gej": "mina (Togo)",
+    "gej": "gen",
     "gek": "ywom",
     "gel": "ut-ma’in",
     "gelao blanc de Diyingshao": "gelao blanc de Diyingshao",
