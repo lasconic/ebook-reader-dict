@@ -116,6 +116,7 @@ escopos = {
     "curmanji": "Curmânji",
     "curmânji": "Curmânji",
     "depreciativo": "pejorativo",
+    "design": "design",
     "desporto": "desporto",
     "desportos": "desporto",
     "desuso": "em desuso",
@@ -376,5 +377,5 @@ escopos = {
     "áfrica do sul": "África do Sul",
     "árvore": "botânica",
     "índia": "{{#ifeq: {{{1}}}|pt|Índia|Índia}}",
-}  # 371
+}  # 372
 # END
