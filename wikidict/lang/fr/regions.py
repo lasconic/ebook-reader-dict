@@ -73,6 +73,7 @@ regions = {
     "Bhoutan": "Bhoutan",
     "Birmanie": "Birmanie",
     "Biélorussie": "Biélorussie",
+    "Bolivie": "Bolivie",
     "Bordelais": "Bordelais",
     "Bosnie-Herzégovine": "Bosnie-Herzégovine",
     "Boston": "Boston",
@@ -594,5 +595,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 589
+}  # 590
 # END
