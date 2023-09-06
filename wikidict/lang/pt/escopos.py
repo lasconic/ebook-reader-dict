@@ -79,6 +79,7 @@ escopos = {
     "béarn": "Bearne",
     "bélgica": "Bélgica",
     "cabo verde": "Cabo Verde",
+    "caipira": "caipira",
     "calabor": "Calabor",
     "calendário": "cronônimo",
     "calão": "obsceno",
@@ -186,6 +187,7 @@ escopos = {
     "inglaterra": "Reino Unido",
     "inglês": "Reino Unido",
     "inseto": "entomologia",
+    "interior de são paulo": "caipira",
     "internetês": "internetês",
     "intransitivo": "intransitivo",
     "iralanda": "Irlanda",
@@ -377,5 +379,5 @@ escopos = {
     "áfrica do sul": "África do Sul",
     "árvore": "botânica",
     "índia": "{{#ifeq: {{{1}}}|pt|Índia|Índia}}",
-}  # 372
+}  # 374
 # END

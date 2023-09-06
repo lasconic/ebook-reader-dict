@@ -48,6 +48,8 @@ regions = {
     "Australie": "Australie",
     "Autriche": "Autriche",
     "Autunois": "Autunois",
+    "Auvergne": "Auvergne",
+    "Avetrana": "Avetrana",
     "Azerbaïdjan": "Azerbaïdjan",
     "BE": "Belgique",
     "BF": "Burkina Faso",
@@ -593,5 +595,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 588
+}  # 590
 # END
