@@ -10,6 +10,7 @@ regions = {
     "AE": "Émirats arabes unis",
     "AM": "Amérique latine",
     "AR": "Argentine",
+    "AT": "Autriche",
     "AU": "Australie",
     "AUS": "Australie",
     "Acadie": "Acadie",
@@ -45,6 +46,8 @@ regions = {
     "Asie centrale": "Asie centrale",
     "Aube": "Aube",
     "Australie": "Australie",
+    "Autriche": "Autriche",
+    "Autunois": "Autunois",
     "Auvergne": "Auvergne",
     "Avetrana": "Avetrana",
     "Azerbaïdjan": "Azerbaïdjan",
@@ -124,7 +127,6 @@ regions = {
     "Chef-Boutonne": "Chef-Boutonne",
     "Chenou": "Chenou",
     "Chili": "Chili",
-    "Chine": "Chine",
     "Cholet": "Cholet",
     "Chungcheong": "Chungcheong",
     "Château-Gontier": "Château-Gontier",
@@ -592,5 +594,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 587
+}  # 589
 # END
