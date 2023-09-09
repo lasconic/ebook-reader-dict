@@ -77,9 +77,7 @@ regions = {
     "Bordelais": "Bordelais",
     "Bosnie-Herzégovine": "Bosnie-Herzégovine",
     "Boston": "Boston",
-    "Botswana": "Botswana",
     "Bourbonnais": "Bourbonnais",
-    "Bourgogne": "Bourgogne",
     "Bray": "Pays de Bray",
     "Bretagne": "Bretagne",
     "Bretagne celtique": "Bretagne celtique",
@@ -127,6 +125,7 @@ regions = {
     "Chef-Boutonne": "Chef-Boutonne",
     "Chenou": "Chenou",
     "Chili": "Chili",
+    "Chine": "Chine",
     "Cholet": "Cholet",
     "Chungcheong": "Chungcheong",
     "Château-Gontier": "Château-Gontier",
@@ -594,5 +593,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 589
+}  # 588
 # END
