@@ -99,7 +99,6 @@ regions = {
     "CI": "Côte d’Ivoire",
     "CL": "Chili",
     "CM": "Cameroun",
-    "Caccamo": "Caccamo",
     "Californie": "Californie",
     "Calimera": "Calimera",
     "Caltanissetta": "Caltanissetta",
@@ -595,5 +594,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 590
+}  # 589
 # END
