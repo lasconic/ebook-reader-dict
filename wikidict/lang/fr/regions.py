@@ -158,7 +158,6 @@ regions = {
     "Côte-d’Ivoire": "Côte d’Ivoire",
     "DE": "Allemagne",
     "DZ": "Algérie",
-    "Danemark": "Danemark",
     "Dauphiné": "Dauphiné",
     "Devon": "Somerset",
     "Dijonnais": "Dijonnais",
@@ -595,5 +594,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 590
+}  # 589
 # END
