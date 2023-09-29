@@ -971,6 +971,7 @@ langs = {
     "smn": "sami inari",
     "sms": "sami skolt",
     "sn": "shona",
+    "sne": "Bau Bidayuh",
     "snk": "soninke",
     "so": "somalí",
     "sog": "sondián",
@@ -1204,5 +1205,5 @@ langs = {
     "zu": "zulú",
     "zun": "zuñi",
     "zza": "zazaki",
-}  # 1,199
+}  # 1,200
 # END
