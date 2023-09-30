@@ -68,10 +68,12 @@ regions = {
     "Belgique": "Belgique",
     "Belize": "Belize",
     "Bengale": "Bangladesh",
+    "Bengale-Occidental": "Bengale-Occidental",
     "Berry": "Berry",
     "Bhoutan": "Bhoutan",
     "Birmanie": "Birmanie",
     "Biélorussie": "Biélorussie",
+    "Bolivie": "Bolivie",
     "Bordelais": "Bordelais",
     "Bosnie-Herzégovine": "Bosnie-Herzégovine",
     "Boston": "Boston",
@@ -89,6 +91,7 @@ regions = {
     "Burkina Faso": "Burkina Faso",
     "Burundi": "Burundi",
     "Bélize": "Bélize",
+    "Bénin": "Bénin",
     "CA": "Canada",
     "CD": "Congo-Kinshasa",
     "CG": "Congo-Brazzaville",
@@ -592,5 +595,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 587
+}  # 590
 # END

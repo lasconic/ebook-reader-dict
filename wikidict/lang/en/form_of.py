@@ -126,7 +126,7 @@ form_of_templates = {
         "dot": True,
     },
     "combining form of": {
-        "text": "combining form of",
+        "text": "Combining form of",
         "dot": False,
     },
     "comparative of": {
