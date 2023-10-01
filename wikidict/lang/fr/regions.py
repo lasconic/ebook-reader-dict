@@ -90,7 +90,6 @@ regions = {
     "Bulgarie": "Bulgarie",
     "Burkina Faso": "Burkina Faso",
     "Burundi": "Burundi",
-    "Bélize": "Bélize",
     "Bénin": "Bénin",
     "CA": "Canada",
     "CD": "Congo-Kinshasa",
@@ -595,5 +594,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 590
+}  # 589
 # END
