@@ -2287,6 +2287,7 @@ recognized_placenames = {
     "country/Roman Empire": {"article": "the", "display": ""},
     "country/Solomon Islands": {"article": "the", "display": ""},
     "country/Soviet Union": {"article": "the", "display": ""},
+    "country/Swaziland": {"article": "", "display": "country/Eswatini"},
     "country/U.S.": {"article": "", "display": "country/United States"},
     "country/U.S.A.": {"article": "", "display": "country/United States"},
     "country/UAE": {"article": "", "display": "country/United Arab Emirates"},
@@ -2385,5 +2386,5 @@ recognized_placenames = {
     "unincorporated territory/Northern Mariana Islands": {"article": "the", "display": ""},
     "unincorporated territory/United States Virgin Islands": {"article": "the", "display": ""},
     "valley/San Fernando Valley": {"article": "the", "display": ""},
-}  # 146
+}  # 147
 # END
