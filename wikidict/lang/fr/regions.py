@@ -308,6 +308,7 @@ regions = {
     "Manche": "Manche",
     "Mandurie": "Mandurie",
     "Marche": "Marche",
+    "Marches": "Marches",
     "Marne": "Marne",
     "Maroc": "Maroc",
     "Marseille": "Marseille",
@@ -595,5 +596,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 590
+}  # 591
 # END
