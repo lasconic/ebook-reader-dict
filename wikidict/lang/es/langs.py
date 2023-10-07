@@ -471,7 +471,6 @@ langs = {
     "it": "italiano",
     "itc": "protoitálico",
     "itc-ola": "latín antiguo",
-    "itc-pro": "protoitálico",
     "ite": "itene",
     "itk": "judeoitaliano",
     "itz": "Itzá",
@@ -1215,5 +1214,5 @@ langs = {
     "zu": "zulú",
     "zun": "zuñi",
     "zza": "zazaki",
-}  # 1,210
+}  # 1,209
 # END
