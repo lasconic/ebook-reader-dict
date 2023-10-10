@@ -108,7 +108,6 @@ regions = {
     "Canada": "Canada",
     "Canaries": "Canaries",
     "Cap-Vert": "Cap-Vert",
-    "Caraïbes": "Caraïbes",
     "Carovigno": "Carovigno",
     "Castri di Lecce": "Castri di Lecce",
     "Castrignano de’ Greci": "Castrignano de’ Greci",
@@ -596,5 +595,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 591
+}  # 590
 # END
