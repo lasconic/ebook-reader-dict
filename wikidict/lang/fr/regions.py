@@ -114,8 +114,6 @@ regions = {
     "Castrignano de’ Greci": "Castrignano de’ Greci",
     "Castro": "Castro",
     "Catalogne": "Catalogne",
-    "Catane": "Catane",
-    "Caucase": "Caucase",
     "Caux": "Pays de Caux",
     "Cavallino": "Cavallino",
     "Centrafrique": "Centrafrique",
@@ -596,5 +594,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 591
+}  # 589
 # END
