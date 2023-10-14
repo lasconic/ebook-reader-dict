@@ -258,6 +258,7 @@ escopos = {
     "ocupação": "profissão",
     "ofensivo": "pejorativo",
     "ofício": "profissão",
+    "oleiros": "Oleiros",
     "ornitologia": "ornitologia",
     "pa": "Pará",
     "palluezu": "Palluezu",
@@ -379,5 +380,5 @@ escopos = {
     "áfrica do sul": "África do Sul",
     "árvore": "botânica",
     "índia": "{{#ifeq: {{{1}}}|pt|Índia|Índia}}",
-}  # 374
+}  # 375
 # END
