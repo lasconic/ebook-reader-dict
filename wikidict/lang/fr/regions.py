@@ -211,6 +211,7 @@ regions = {
     "Guerche-de-Bretagne": "La Guerche-de-Bretagne",
     "Guernesey": "Guernesey",
     "Guinée": "Guinée",
+    "Guinée équatoriale": "Guinée équatoriale",
     "Guinée-Bissau": "Guinée-Bissau",
     "Guyana": "Guyana",
     "Guyane": "Guyane",
@@ -596,5 +597,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 591
+}  # 592
 # END
