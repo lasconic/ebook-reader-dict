@@ -292,6 +292,7 @@ escopos = {
     "quebeque": "Quebec",
     "raro": "raro",
     "rd congo": "República Democrática do Congo",
+    "reflexivo": "reflexivo",
     "regional": "regionalismo",
     "região centro-oeste": "Centro-Oeste do Brasil",
     "região do norte": "Norte de Portugal",
@@ -380,5 +381,5 @@ escopos = {
     "áfrica do sul": "África do Sul",
     "árvore": "botânica",
     "índia": "{{#ifeq: {{{1}}}|pt|Índia|Índia}}",
-}  # 375
+}  # 376
 # END
