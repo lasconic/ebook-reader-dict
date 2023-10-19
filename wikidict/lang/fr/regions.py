@@ -170,13 +170,9 @@ regions = {
     "Dunkerque": "Dunkerque",
     "Durango": "Durango",
     "Détroit": "Détroit",
-    "ES": "Espagne",
-    "EU": "Europe",
     "Empire ottoman": "Empire ottoman",
     "Enna": "Enna",
-    "Espagne": "Espagne",
     "Estonie": "Estonie",
-    "Europe": "Europe",
     "FR": "France",
     "FR-85": "Vendée",
     "FR-Cher": "Cher",
@@ -597,5 +593,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 592
+}  # 588
 # END

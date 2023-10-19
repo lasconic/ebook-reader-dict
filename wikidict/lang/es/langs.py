@@ -1098,6 +1098,7 @@ langs = {
     "umu": "munsee",
     "ur": "urdu",
     "urj": "protourálico",
+    "ush": "ushojo",
     "usp": "uspanteco",
     "uz": "uzbeco",
     "vai": "vai",
@@ -1215,5 +1216,5 @@ langs = {
     "zu": "zulú",
     "zun": "zuñi",
     "zza": "zazaki",
-}  # 1,210
+}  # 1,211
 # END
