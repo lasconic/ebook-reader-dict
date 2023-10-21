@@ -457,6 +457,7 @@ regions = {
     "Saint-Aubin-de-Luigné": "Saint-Aubin-de-Luigné",
     "Saint-Augustin-des-Bois": "Saint-Augustin-des-Bois",
     "Saint-Christophe-et-Niévès": "Saint-Christophe-et-Niévès",
+    "Saint-Domingue": "Haïti",
     "Saint-Georges-sur-Loire": "Saint-Georges-sur-Loire",
     "Saint-Marin": "Saint-Marin",
     "Saint-Martin": "Saint-Martin",
@@ -597,5 +598,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 592
+}  # 593
 # END

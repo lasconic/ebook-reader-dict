@@ -116,7 +116,7 @@ escopos = {
     "culinária": "alimentação",
     "curmanji": "Curmânji",
     "curmânji": "Curmânji",
-    "depreciativo": "pejorativo",
+    "depreciativo": "depreciativo",
     "design": "design",
     "desporto": "desporto",
     "desportos": "desporto",
