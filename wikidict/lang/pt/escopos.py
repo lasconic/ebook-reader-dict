@@ -269,7 +269,7 @@ escopos = {
     "parapsicologia": "parapsiquismo",
     "paraíba": "Paraíba",
     "pará": "Pará",
-    "país": "geografia",
+    "país": "país",
     "país de gales": "País de Gales",
     "pb": "Paraíba",
     "pe": "Pernambuco",
