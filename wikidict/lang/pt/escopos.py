@@ -236,6 +236,7 @@ escopos = {
     "mobiliário": "mobiliário",
     "moeda": "numismática",
     "molusco": "zoologia",
+    "moncorvo": "Moncorvo",
     "montalegre": "Montalegre",
     "moçambicanismo": "Moçambique",
     "moçambique": "Moçambique",
@@ -356,6 +357,7 @@ escopos = {
     "tocantins": "Tocantins",
     "topónimo": "toponímia",
     "topônimo": "toponímia",
+    "torre de moncorvo": "Moncorvo",
     "transitivo": "transitivo",
     "transporte": "transporte",
     "transporte ferroviário": "transporte",
@@ -386,5 +388,5 @@ escopos = {
     "zamora": "Zamora",
     "áfrica do sul": "África do Sul",
     "índia": "{{#ifeq: {{{1}}}|pt|Índia|Índia}}",
-}  # 381
+}  # 383
 # END
