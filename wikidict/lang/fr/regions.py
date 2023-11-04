@@ -174,6 +174,7 @@ regions = {
     "ES": "Espagne",
     "EU": "Europe",
     "Empire ottoman": "Empire ottoman",
+    "Enna": "Enna",
     "Espagne": "Espagne",
     "Estonie": "Estonie",
     "Europe": "Europe",
@@ -594,10 +595,11 @@ regions = {
     "Écouflant": "Écouflant",
     "Égypte": "Égypte",
     "Émirats arabes unis": "Émirats arabes unis",
+    "Équateur": "Équateur",
     "Érythrée": "Érythrée",
     "États-Unis": "États-Unis",
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 594
+}  # 596
 # END
