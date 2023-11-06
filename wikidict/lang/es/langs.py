@@ -823,6 +823,7 @@ langs = {
     "pag": "pangasinán",
     "pal": "persa medio",
     "pam": "pampango",
+    "pao": "paiute septentrional",
     "pap": "papiamento",
     "pau": "palauano",
     "pbb": "paez",
@@ -1220,5 +1221,5 @@ langs = {
     "zu": "zulú",
     "zun": "zuñi",
     "zza": "zazaki",
-}  # 1,215
+}  # 1,216
 # END
