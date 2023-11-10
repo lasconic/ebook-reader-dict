@@ -361,6 +361,7 @@ escopos = {
     "topónimo": "toponímia",
     "topônimo": "toponímia",
     "torre de moncorvo": "Moncorvo",
+    "transilvânia": "Transilvânia",
     "transitivo": "transitivo",
     "transporte": "transporte",
     "transporte ferroviário": "transporte",
@@ -392,5 +393,5 @@ escopos = {
     "zamora": "Zamora",
     "áfrica do sul": "África do Sul",
     "índia": "{{#ifeq: {{{1}}}|pt|Índia|Índia}}",
-}  # 387
+}  # 388
 # END
