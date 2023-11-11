@@ -72,6 +72,8 @@ regions = {
     "Bengale-Occidental": "Bengale-Occidental",
     "Berry": "Berry",
     "Bhoutan": "Bhoutan",
+    "Birmanie": "Birmanie",
+    "Biélorussie": "Biélorussie",
     "Bolivie": "Bolivie",
     "Bordelais": "Bordelais",
     "Bosnie-Herzégovine": "Bosnie-Herzégovine",
@@ -219,11 +221,8 @@ regions = {
     "Gyeongsang": "Gyeongsang",
     "Géorgie": "Géorgie",
     "Gérardmer": "Gérardmer",
-    "HT": "Haïti",
-    "Harelbeke": "Harelbeke",
     "Haute-Marne": "Haute-Marne",
     "Hawaï": "Hawaï",
-    "Haïti": "Haïti",
     "Honduras": "Honduras",
     "Hongrie": "Hongrie",
     "IDLMadeleine": "Îles-de-la-Madeleine",
@@ -458,7 +457,6 @@ regions = {
     "Saint-Aubin-de-Luigné": "Saint-Aubin-de-Luigné",
     "Saint-Augustin-des-Bois": "Saint-Augustin-des-Bois",
     "Saint-Christophe-et-Niévès": "Saint-Christophe-et-Niévès",
-    "Saint-Domingue": "Haïti",
     "Saint-Georges-sur-Loire": "Saint-Georges-sur-Loire",
     "Saint-Marin": "Saint-Marin",
     "Saint-Martin": "Saint-Martin",
@@ -599,5 +597,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 594
+}  # 592
 # END
