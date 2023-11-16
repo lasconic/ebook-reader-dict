@@ -143,6 +143,7 @@ gramatica_short = {
     "pl": "plural",
     "poss": "possessivo",
     "pr": "próprio",
+    "pred": "predicativo",
     "prim": "primitivo",
     "reg": "regular",
     "pron": "regular",
@@ -175,5 +176,5 @@ gramatica_short = {
     "vt": "transitivo direto",
     "vtdi": "transitivo direto e indireto",
     "vti": "transitivo indireto",
-}  # 170
+}  # 171
 # END

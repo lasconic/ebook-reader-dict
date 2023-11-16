@@ -22,6 +22,7 @@ domain_templates = {
     "animaux": "Zoologie",
     "antilopes": "Zoologie",
     "appareils": "Électroménager",
+    "application": "Couche application",
     "araignées": "Zoologie",
     "arbres": "Botanique",
     "armes": "Armement",
@@ -86,8 +87,10 @@ domain_templates = {
     "couche session": "Couche session",
     "couche transport": "Couche transport",
     "couleurs": "Colorimétrie",
+    "cours d'eau": "Géographie",
     "cours d’eau": "Géographie",
     "couteaux": "Couteaux",
+    "couverture": "Couvertures",
     "couvertures": "Couvertures",
     "couvre-chefs": "Habillement",
     "crabes": "Zoologie",
@@ -229,6 +232,7 @@ domain_templates = {
     "primates": "Zoologie",
     "protocoles": "Réseaux",
     "protéines": "Biochimie",
+    "proverbe": "Proverbe",
     "proverbes": "Proverbe",
     "provinces": "Géographie",
     "prunes": "Botanique",
@@ -295,6 +299,7 @@ domain_templates = {
     "vins": "Œnologie",
     "virus": "Virologie",
     "voitures": "Automobile",
+    "véhicule": "Transport",
     "véhicules": "Transport",
     "vélos": "Cyclisme",
     "vête": "Habillement",
@@ -312,5 +317,5 @@ domain_templates = {
     "états": "État",
     "étoiles": "Astronomie",
     "îles": "Géographie",
-}  # 307
+}  # 312
 # END
