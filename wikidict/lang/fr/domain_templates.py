@@ -73,7 +73,6 @@ domain_templates = {
     "composants électroniques": "Électronique",
     "comtés": "Géographie",
     "condiments": "Cuisine",
-    "confiserie": "Confiserie",
     "confiseries": "Confiserie",
     "conifères": "Botanique",
     "constellations": "Astronomie",
@@ -87,7 +86,6 @@ domain_templates = {
     "couche session": "Couche session",
     "couche transport": "Couche transport",
     "couleurs": "Colorimétrie",
-    "cours d'eau": "Géographie",
     "cours d’eau": "Géographie",
     "couteaux": "Couteaux",
     "couverture": "Couvertures",
@@ -177,7 +175,6 @@ domain_templates = {
     "machines": "Technologie",
     "maladie": "Nosologie",
     "maladies": "Nosologie",
-    "mammifère": "Zoologie",
     "mammifères": "Zoologie",
     "marsupiaux": "Zoologie",
     "mers": "Géographie",
@@ -317,5 +314,5 @@ domain_templates = {
     "états": "État",
     "étoiles": "Astronomie",
     "îles": "Géographie",
-}  # 312
+}  # 309
 # END
