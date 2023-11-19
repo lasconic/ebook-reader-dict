@@ -73,6 +73,7 @@ domain_templates = {
     "composants électroniques": "Électronique",
     "comtés": "Géographie",
     "condiments": "Cuisine",
+    "confiserie": "Confiserie",
     "confiseries": "Confiserie",
     "conifères": "Botanique",
     "constellations": "Astronomie",
@@ -112,7 +113,6 @@ domain_templates = {
     "divinités": "Divinité",
     "documents": "Média",
     "drogues": "Pharmacologie",
-    "délinquants": "Droit",
     "délits": "Droit",
     "départements": "Géographie",
     "déserts": "Géographie",
@@ -175,6 +175,7 @@ domain_templates = {
     "machines": "Technologie",
     "maladie": "Nosologie",
     "maladies": "Nosologie",
+    "mammifère": "Zoologie",
     "mammifères": "Zoologie",
     "marsupiaux": "Zoologie",
     "mers": "Géographie",
@@ -314,5 +315,5 @@ domain_templates = {
     "états": "État",
     "étoiles": "Astronomie",
     "îles": "Géographie",
-}  # 309
+}  # 310
 # END

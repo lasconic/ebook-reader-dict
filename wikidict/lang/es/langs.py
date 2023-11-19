@@ -344,6 +344,7 @@ langs = {
     "ff": "fula",
     "fi": "finés",
     "fil": "filipino",
+    "fin": "protofinés",
     "fiu": "protougrofinés",
     "fj": "fiyiano",
     "fo": "feroés",
@@ -1221,5 +1222,5 @@ langs = {
     "zu": "zulú",
     "zun": "zuñi",
     "zza": "zazaki",
-}  # 1,216
+}  # 1,217
 # END
