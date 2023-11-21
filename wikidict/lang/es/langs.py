@@ -26,6 +26,7 @@ langs = {
     "af": "afrikáans",
     "afa": "afroasiático",
     "afh": "afrihili",
+    "agq": "aghem",
     "agr": "aguaruna",
     "agu": "aguacateco",
     "agx": "aghul",
@@ -1222,5 +1223,5 @@ langs = {
     "zu": "zulú",
     "zun": "zuñi",
     "zza": "zazaki",
-}  # 1,217
+}  # 1,218
 # END

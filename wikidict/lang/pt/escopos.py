@@ -394,7 +394,8 @@ escopos = {
     "vulgaridade": "obsceno",
     "vídeo game": "vídeo game",
     "zamora": "Zamora",
+    "zootecnia": "veterinária",
     "áfrica do sul": "África do Sul",
     "índia": "{{#ifeq: {{{1}}}|pt|Índia|Índia}}",
-}  # 391
+}  # 392
 # END

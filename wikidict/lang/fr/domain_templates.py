@@ -87,6 +87,7 @@ domain_templates = {
     "couche session": "Couche session",
     "couche transport": "Couche transport",
     "couleurs": "Colorimétrie",
+    "cours d'eau": "Géographie",
     "cours d’eau": "Géographie",
     "couteaux": "Couteaux",
     "couverture": "Couvertures",
@@ -113,6 +114,7 @@ domain_templates = {
     "divinités": "Divinité",
     "documents": "Média",
     "drogues": "Pharmacologie",
+    "délinquants": "Droit",
     "délits": "Droit",
     "départements": "Géographie",
     "déserts": "Géographie",
@@ -129,6 +131,7 @@ domain_templates = {
     "figures": "Rhétorique",
     "flamants": "Ornithologie",
     "fleurs": "Botanique",
+    "fongicides": "Chimie",
     "formations musicales": "Musique",
     "fossiles": "Paléontologie",
     "fromages": "Fromage",
@@ -211,6 +214,7 @@ domain_templates = {
     "personnalités": "Anthroponyme",
     "personnification": "Rhétorique",
     "personnifications": "Rhétorique",
+    "pesticides": "Chimie",
     "peupliers": "Botanique",
     "phobies": "Médecine",
     "phyton": "Botanique",
@@ -315,5 +319,5 @@ domain_templates = {
     "états": "État",
     "étoiles": "Astronomie",
     "îles": "Géographie",
-}  # 310
+}  # 314
 # END
