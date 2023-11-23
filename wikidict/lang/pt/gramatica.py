@@ -156,8 +156,9 @@ gramatica_short = {
     "s": "sem plural",
     "sg": "singular",
     "sim": "simples",
+    "sp": "singular e plural",
+    "simpl": "singular e plural",
     "subst": "substantival",
-    "simpl": "substantival",
     "temp": "de tempo",
     "ton": "tônico",
     "tran": "transitivo",
@@ -176,5 +177,5 @@ gramatica_short = {
     "vt": "transitivo direto",
     "vtdi": "transitivo direto e indireto",
     "vti": "transitivo indireto",
-}  # 171
+}  # 172
 # END

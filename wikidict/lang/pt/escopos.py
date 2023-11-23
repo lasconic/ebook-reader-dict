@@ -103,6 +103,7 @@ escopos = {
     "chulo": "obsceno",
     "cidade": "geografia",
     "ciência da computação": "ciência da computação",
+    "ciência dos materiais": "ciência dos materiais",
     "coimbra": "Coimbra",
     "coloquial": "coloquial",
     "colômbia": "Colômbia",
@@ -397,5 +398,5 @@ escopos = {
     "zootecnia": "veterinária",
     "áfrica do sul": "África do Sul",
     "índia": "{{#ifeq: {{{1}}}|pt|Índia|Índia}}",
-}  # 392
+}  # 393
 # END
