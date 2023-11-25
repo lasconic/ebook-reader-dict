@@ -53,6 +53,7 @@ domain_templates = {
     "carnivores": "Zoologie",
     "cervidés": "Zoologie",
     "chameaux": "Zoologie",
+    "champignon": "Mycologie",
     "champignons": "Mycologie",
     "charcuteries": "Cuisine",
     "chats": "Zoologie",
@@ -117,6 +118,7 @@ domain_templates = {
     "délits": "Droit",
     "départements": "Géographie",
     "déserts": "Géographie",
+    "détroit": "Géographie",
     "détroits": "Géographie",
     "dévanâgarî": "Linguistique",
     "enzymes": "Biochimie",
@@ -148,6 +150,7 @@ domain_templates = {
     "gâteaux": "Cuisine",
     "hérons": "Ornithologie",
     "ibis": "Ornithologie",
+    "iles": "Géographie",
     "insectes": "Entomologie",
     "instruments": "Musique",
     "instruments de mesure": "Métrologie",
@@ -316,5 +319,5 @@ domain_templates = {
     "états": "État",
     "étoiles": "Astronomie",
     "îles": "Géographie",
-}  # 311
+}  # 314
 # END
