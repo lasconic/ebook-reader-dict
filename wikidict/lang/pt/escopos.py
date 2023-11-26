@@ -51,6 +51,7 @@ escopos = {
     "austrália": "Austrália",
     "ave": "ornitologia",
     "aveiro": "Aveiro",
+    "aviação": "aeronáutica ",
     "açores": "Açores",
     "ba": "Bahia",
     "bahia": "Bahia",
@@ -283,6 +284,7 @@ escopos = {
     "país de gales": "País de Gales",
     "pb": "Paraíba",
     "pe": "Pernambuco",
+    "pedagogia": "pedagogia",
     "peixe": "ictiologia",
     "pernambuco": "Pernambuco",
     "peru": "Peru",
@@ -398,5 +400,5 @@ escopos = {
     "zootecnia": "veterinária",
     "áfrica do sul": "África do Sul",
     "índia": "{{#ifeq: {{{1}}}|pt|Índia|Índia}}",
-}  # 393
+}  # 395
 # END
