@@ -22,7 +22,6 @@ domain_templates = {
     "animaux": "Zoologie",
     "antilopes": "Zoologie",
     "appareils": "Électroménager",
-    "application": "Couche application",
     "araignées": "Zoologie",
     "arbres": "Botanique",
     "armes": "Armement",
@@ -73,7 +72,6 @@ domain_templates = {
     "composants électroniques": "Électronique",
     "comtés": "Géographie",
     "condiments": "Cuisine",
-    "confiserie": "Confiserie",
     "confiseries": "Confiserie",
     "conifères": "Botanique",
     "constellations": "Astronomie",
@@ -115,7 +113,6 @@ domain_templates = {
     "documents": "Média",
     "drogues": "Pharmacologie",
     "délinquants": "Droit",
-    "délits": "Droit",
     "départements": "Géographie",
     "déserts": "Géographie",
     "détroit": "Géographie",
@@ -298,6 +295,7 @@ domain_templates = {
     "vents": "Météorologie",
     "vers": "Zoologie",
     "viandes": "Cuisine",
+    "villes": "Géographie",
     "vins": "Œnologie",
     "virus": "Virologie",
     "voitures": "Automobile",
@@ -319,5 +317,5 @@ domain_templates = {
     "états": "État",
     "étoiles": "Astronomie",
     "îles": "Géographie",
-}  # 314
+}  # 312
 # END
