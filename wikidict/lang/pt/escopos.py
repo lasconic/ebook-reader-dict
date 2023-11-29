@@ -156,6 +156,7 @@ escopos = {
     "etnia": "etnologia",
     "etnónimo": "etnologia",
     "eu-navego": "Astúrias",
+    "eua": "Estados Unidos",
     "extremadura": "Estremadura",
     "familiar": "familiar",
     "farmacologia": "farmacologia",
@@ -379,6 +380,7 @@ escopos = {
     "ténis": "ténis",
     "tênis": "tênis",
     "têxtil": "indústria têxtil",
+    "uk": "Reino Unido",
     "uruguai": "Uruguai",
     "vale de aran": "Vale de Aran",
     "vale de arão": "Vale de Aran",
@@ -400,5 +402,5 @@ escopos = {
     "zootecnia": "veterinária",
     "áfrica do sul": "África do Sul",
     "índia": "{{#ifeq: {{{1}}}|pt|Índia|Índia}}",
-}  # 395
+}  # 397
 # END
