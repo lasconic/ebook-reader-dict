@@ -292,6 +292,7 @@ escopos = {
     "pi": "Piauí",
     "piauí": "Piauí",
     "planta": "botânica",
+    "plural": "plural",
     "popular": "popular",
     "porto": "Porto",
     "porto rico": "Porto Rico",
@@ -402,5 +403,5 @@ escopos = {
     "zootecnia": "veterinária",
     "áfrica do sul": "África do Sul",
     "índia": "{{#ifeq: {{{1}}}|pt|Índia|Índia}}",
-}  # 397
+}  # 398
 # END
