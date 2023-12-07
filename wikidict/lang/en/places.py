@@ -2359,6 +2359,7 @@ recognized_placenames = {
     "city/Washington DC": {"article": "", "display": "city/Washington, D.C."},
     "city/Washington, DC": {"article": "", "display": "city/Washington, D.C."},
     "commonwealth/Northern Mariana Islands": {"article": "the", "display": ""},
+    "constituent country/Netherlands": {"article": "the", "display": ""},
     "council area/City of Aberdeen": {"article": "the", "display": ""},
     "council area/City of Dundee": {"article": "the", "display": ""},
     "council area/City of Edinburgh": {"article": "the", "display": ""},
@@ -2492,5 +2493,5 @@ recognized_placenames = {
     "unincorporated territory/Northern Mariana Islands": {"article": "the", "display": ""},
     "unincorporated territory/United States Virgin Islands": {"article": "the", "display": ""},
     "valley/San Fernando Valley": {"article": "the", "display": ""},
-}  # 148
+}  # 149
 # END
