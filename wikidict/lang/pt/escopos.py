@@ -79,6 +79,7 @@ escopos = {
     "bolívia": "Bolívia",
     "bragança": "Bragança",
     "brasil": "Brasil",
+    "brasileirismo": "Brasil",
     "britânico": "Reino Unido",
     "béarn": "Bearne",
     "bélgica": "Bélgica",
@@ -221,6 +222,7 @@ escopos = {
     "local": "toponímia",
     "logudorês": "Logudorês",
     "lugar": "toponímia",
+    "lusitanismo": "Portugal",
     "língua": "linguística",
     "ma": "Maranhão",
     "macau": "Macau",
@@ -405,5 +407,5 @@ escopos = {
     "zootecnia": "veterinária",
     "áfrica do sul": "África do Sul",
     "índia": "{{#ifeq: {{{1}}}|pt|Índia|Índia}}",
-}  # 400
+}  # 402
 # END
