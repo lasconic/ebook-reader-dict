@@ -165,6 +165,7 @@ regions = {
     "Dijonnais": "Dijonnais",
     "Diu": "Diu",
     "Djibouti": "Djibouti",
+    "Dominique": "Dominique",
     "Doué-en-Anjou": "Doué-en-Anjou",
     "Drôme": "Drôme",
     "Dunkerque": "Dunkerque",
@@ -600,5 +601,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 595
+}  # 596
 # END
