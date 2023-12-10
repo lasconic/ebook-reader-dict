@@ -185,6 +185,8 @@ escopos = {
     "glossônimo": "linguística",
     "go": "Goiás",
     "goiás": "Goiás",
+    "grafia brasileira": "Grafia brasileira",
+    "grafia portuguesa": "Grafia portuguesa",
     "grã-bretanha": "Reino Unido",
     "guatemala": "Guatemala",
     "guiné-bissau": "Guiné-Bissau",
@@ -407,5 +409,5 @@ escopos = {
     "zootecnia": "veterinária",
     "áfrica do sul": "África do Sul",
     "índia": "{{#ifeq: {{{1}}}|pt|Índia|Índia}}",
-}  # 402
+}  # 404
 # END
