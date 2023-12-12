@@ -1050,6 +1050,7 @@ langs = {
     "tlh": "klingon",
     "tli": "tlingit",
     "tlx": "khehek",
+    "tly": "talish",
     "tmh": "tuareg",
     "tmr": "arameo",
     "tn": "setsuana",
@@ -1224,5 +1225,5 @@ langs = {
     "zu": "zulú",
     "zun": "zuñi",
     "zza": "zazaki",
-}  # 1,219
+}  # 1,220
 # END
