@@ -173,10 +173,7 @@ regions = {
     "Détroit": "Détroit",
     "ES": "Espagne",
     "EU": "Europe",
-    "Empire ottoman": "Empire ottoman",
-    "Enna": "Enna",
     "Espagne": "Espagne",
-    "Estonie": "Estonie",
     "Europe": "Europe",
     "FL": "Liechtenstein",
     "FR": "France",
@@ -308,6 +305,7 @@ regions = {
     "Mali": "Mali",
     "Malte": "Malte",
     "Manche": "Manche",
+    "Mandurie": "Mandurie",
     "Marche": "Marche",
     "Marches": "Marches",
     "Marne": "Marne",
@@ -595,10 +593,9 @@ regions = {
     "Égypte": "Égypte",
     "Émirats arabes unis": "Émirats arabes unis",
     "Équateur": "Équateur",
-    "Érythrée": "Érythrée",
     "États-Unis": "États-Unis",
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 595
+}  # 592
 # END
