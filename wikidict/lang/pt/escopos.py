@@ -305,6 +305,7 @@ escopos = {
     "pouco usado": "pouco usado",
     "pr": "Paraná",
     "programação": "ciência da computação",
+    "pronominal": "pronominal",
     "provença": "Provença",
     "provençal": "Provença",
     "pássaro": "ornitologia",
@@ -409,5 +410,5 @@ escopos = {
     "zootecnia": "veterinária",
     "áfrica do sul": "África do Sul",
     "índia": "{{#ifeq: {{{1}}}|pt|Índia|Índia}}",
-}  # 404
+}  # 405
 # END

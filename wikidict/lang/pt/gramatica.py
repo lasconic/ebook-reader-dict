@@ -78,9 +78,11 @@ gramatica_short = {
     "fd": "feminino dual",
     "finv": "feminino invariável",
     "fi": "feminino invariável",
+    "forte": "forte",
     "fpl": "feminino plural",
     "fp": "feminino plural",
     "frac": "fracionário",
+    "fraco": "fraco",
     "fsg": "feminino singular",
     "fs": "feminino singular",
     "gc": "género comum",
@@ -177,5 +179,5 @@ gramatica_short = {
     "vt": "transitivo direto",
     "vtdi": "transitivo direto e indireto",
     "vti": "transitivo indireto",
-}  # 172
+}  # 174
 # END
