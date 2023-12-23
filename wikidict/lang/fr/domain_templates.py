@@ -244,7 +244,6 @@ domain_templates = {
     "pâtes alimentaires": "Cuisine",
     "pâtisseries": "Pâtisserie",
     "pélicans": "Ornithologie",
-    "périodes": "Géologie",
     "pêches": "Botanique",
     "quartiers": "Toponyme",
     "questions rhétoriques": "Questions rhétoriques",
@@ -305,7 +304,6 @@ domain_templates = {
     "véhicule": "Transport",
     "véhicules": "Transport",
     "vélos": "Cyclisme",
-    "vête": "Habillement",
     "vêtements": "Habillement",
     "xénarthres": "Mammalogie",
     "échinodermes": "Zoologie",
@@ -320,5 +318,5 @@ domain_templates = {
     "états": "État",
     "étoiles": "Astronomie",
     "îles": "Géographie",
-}  # 315
+}  # 313
 # END
