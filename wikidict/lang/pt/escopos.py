@@ -59,6 +59,7 @@ escopos = {
     "baixo calão": "obsceno",
     "barbarismo": "estrangeirismo",
     "barroso": "Barroso",
+    "baseball": "beisebol",
     "basquete": "basquetebol",
     "basquetebol": "basquetebol",
     "bearn": "Bearne",
@@ -72,6 +73,7 @@ escopos = {
     "beira-interior": "Beira Interior",
     "beira-litoral": "Beira Litoral",
     "beiras": "As Beiras",
+    "beisebol": "beisebol",
     "belver": "Belver",
     "berzo": "Berzo",
     "bolonha": "Bolonha",
@@ -410,5 +412,5 @@ escopos = {
     "zootecnia": "veterinária",
     "áfrica do sul": "África do Sul",
     "índia": "{{#ifeq: {{{1}}}|pt|Índia|Índia}}",
-}  # 405
+}  # 407
 # END

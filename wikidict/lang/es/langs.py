@@ -337,6 +337,7 @@ langs = {
     "ewo": "ewondo",
     "ext": "extremeño",
     "fa": "persa",
+    "fa-cls": "persa clásico",
     "fab": "annobonés",
     "fan": "fang",
     "fat": "fante",
@@ -1228,5 +1229,5 @@ langs = {
     "zu": "zulú",
     "zun": "zuñi",
     "zza": "zazaki",
-}  # 1,223
+}  # 1,224
 # END
