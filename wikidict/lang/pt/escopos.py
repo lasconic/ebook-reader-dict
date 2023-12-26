@@ -86,7 +86,7 @@ escopos = {
     "béarn": "Bearne",
     "bélgica": "Bélgica",
     "cabo verde": "Cabo Verde",
-    "caipira": "caipira",
+    "caipira": "dialeto caipira",
     "calabor": "Calabor",
     "calendário": "cronônimo",
     "calão": "obsceno",
@@ -135,6 +135,7 @@ escopos = {
     "dia da semana": "cronônimo",
     "dialectal": "regionalismo",
     "dialetal": "regionalismo",
+    "dialeto caipira": "dialeto caipira",
     "distrito federal": "Distrito Federal",
     "doença": "patologia",
     "douro": "Douro",
@@ -204,7 +205,7 @@ escopos = {
     "inglês": "Reino Unido",
     "inglês britânico": "Reino Unido",
     "inseto": "entomologia",
-    "interior de são paulo": "caipira",
+    "interior de são paulo": "dialeto caipira",
     "internetês": "internetês",
     "intransitivo": "intransitivo",
     "iralanda": "Irlanda",
@@ -412,5 +413,5 @@ escopos = {
     "zootecnia": "veterinária",
     "áfrica do sul": "África do Sul",
     "índia": "{{#ifeq: {{{1}}}|pt|Índia|Índia}}",
-}  # 407
+}  # 408
 # END
