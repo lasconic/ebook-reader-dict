@@ -212,6 +212,7 @@ escopos = {
     "irlanda do norte": "Irlanda",
     "ironia": "ironia",
     "irónico": "ironia",
+    "jamaica": "Jamaica",
     "jocoso": "ironia",
     "jornalismo": "mídia",
     "justiça": "direito",
@@ -413,5 +414,5 @@ escopos = {
     "zootecnia": "veterinária",
     "áfrica do sul": "África do Sul",
     "índia": "{{#ifeq: {{{1}}}|pt|Índia|Índia}}",
-}  # 408
+}  # 409
 # END
