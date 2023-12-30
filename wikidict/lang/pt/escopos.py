@@ -43,6 +43,7 @@ escopos = {
     "aranês": "Vale de Aran",
     "arcaico": "arcaico",
     "argentina": "Argentina",
+    "aritmética": "aritmética",
     "artes": "arte",
     "artes gráficas": "arte",
     "artes visuais": "arte",
@@ -425,5 +426,5 @@ escopos = {
     "zootecnia": "veterinária",
     "áfrica do sul": "África do Sul",
     "índia": "{{#ifeq: {{{1}}}|pt|Índia|Índia}}",
-}  # 420
+}  # 421
 # END
