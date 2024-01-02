@@ -101,6 +101,7 @@ langs = {
     "awt": "araweté",
     "axm": "armenio medio",
     "ay": "aimara",
+    "ayl": "árabe libio",
     "ayr": "aimara central",
     "az": "azerí",
     "azd": "náhuatl de Durango",
@@ -1230,5 +1231,5 @@ langs = {
     "zu": "zulú",
     "zun": "zuñi",
     "zza": "zazaki",
-}  # 1,225
+}  # 1,226
 # END
