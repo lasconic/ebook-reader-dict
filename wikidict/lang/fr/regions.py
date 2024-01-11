@@ -282,7 +282,6 @@ regions = {
     "Libye": "Libye",
     "Licata": "Licata",
     "Liechtenstein": "Liechtenstein",
-    "Limagne": "Limagne",
     "Limousin": "Limousin",
     "Lituanie": "Lituanie",
     "Lizzano": "Lizzano",
@@ -601,5 +600,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 596
+}  # 595
 # END
