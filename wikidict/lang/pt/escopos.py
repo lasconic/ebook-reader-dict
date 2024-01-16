@@ -125,6 +125,7 @@ escopos = {
     "cronónimo": "cronónimo",
     "cronônimo": "cronônimo",
     "crustáceo": "artrópodes",
+    "críquete": "basquetebol",
     "cuba": "Cuba",
     "culinária": "alimentação",
     "curmanji": "Curmânji",
@@ -426,5 +427,5 @@ escopos = {
     "zootecnia": "veterinária",
     "áfrica do sul": "África do Sul",
     "índia": "{{#ifeq: {{{1}}}|pt|Índia|Índia}}",
-}  # 421
+}  # 422
 # END
