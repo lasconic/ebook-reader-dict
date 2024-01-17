@@ -125,7 +125,7 @@ escopos = {
     "cronónimo": "cronónimo",
     "cronônimo": "cronônimo",
     "crustáceo": "artrópodes",
-    "críquete": "basquetebol",
+    "críquete": "críquete",
     "cuba": "Cuba",
     "culinária": "alimentação",
     "curmanji": "Curmânji",
