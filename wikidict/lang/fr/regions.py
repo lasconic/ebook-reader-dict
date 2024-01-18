@@ -204,6 +204,9 @@ regions = {
     "Ghana": "Ghana",
     "Grande-Bretagne": "Royaume-Uni",
     "Grenade": "Grenade",
+    "Grenoble": "Grenoble",
+    "Groenland": "Groenland",
+    "Grottaglie": "Grottaglie",
     "Grèce": "Grèce",
     "Guadeloupe": "Guadeloupe",
     "Guatemala": "Guatemala",
@@ -598,5 +601,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 593
+}  # 596
 # END

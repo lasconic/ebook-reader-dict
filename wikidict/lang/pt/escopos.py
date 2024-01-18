@@ -191,6 +191,7 @@ escopos = {
     "gerês": "Gerês",
     "gimnosperma": "botânica",
     "ginecologia": "Ginecologia",
+    "ginástica": "esporte",
     "glossónimo": "linguística",
     "glossônimo": "linguística",
     "go": "Goiás",
@@ -427,5 +428,5 @@ escopos = {
     "zootecnia": "veterinária",
     "áfrica do sul": "África do Sul",
     "índia": "{{#ifeq: {{{1}}}|pt|Índia|Índia}}",
-}  # 422
+}  # 423
 # END
