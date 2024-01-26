@@ -317,7 +317,8 @@ escopos = {
     "portugal": "Portugal",
     "português brasileiro": "Brasil",
     "português lusitano": "Portugal",
-    "pouco usado": "pouco usado",
+    "pouco comum": "pouco comum",
+    "pouco usado": "pouco comum",
     "pr": "Paraná",
     "programação": "ciência da computação",
     "pronominal": "pronominal",
@@ -428,5 +429,5 @@ escopos = {
     "zootecnia": "veterinária",
     "áfrica do sul": "África do Sul",
     "índia": "{{#ifeq: {{{1}}}|pt|Índia|Índia}}",
-}  # 423
+}  # 424
 # END
