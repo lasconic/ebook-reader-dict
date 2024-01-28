@@ -699,6 +699,7 @@ langs = {
     "mt": "maltés",
     "mtn": "matagalpa",
     "mto": "mixe de Totontepec",
+    "mul": "translingüístico",
     "mun": "munda",
     "mus": "maskoki",
     "mwl": "mirandés",
@@ -1231,5 +1232,5 @@ langs = {
     "zu": "zulú",
     "zun": "zuñi",
     "zza": "zazaki",
-}  # 1,226
+}  # 1,227
 # END
