@@ -178,7 +178,6 @@ domain_templates = {
     "machines": "Technologie",
     "maladie": "Nosologie",
     "maladies": "Nosologie",
-    "mammifère": "Zoologie",
     "mammifères": "Zoologie",
     "marsupiaux": "Zoologie",
     "mers": "Géographie",
@@ -321,5 +320,5 @@ domain_templates = {
     "états": "État",
     "étoiles": "Astronomie",
     "îles": "Géographie",
-}  # 316
+}  # 315
 # END
