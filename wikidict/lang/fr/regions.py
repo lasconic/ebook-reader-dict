@@ -308,7 +308,6 @@ regions = {
     "Maldives": "Maldives",
     "Mali": "Mali",
     "Malte": "Malte",
-    "Manche": "Manche",
     "Mandurie": "Mandurie",
     "Marche": "Marche",
     "Marches": "Marches",
@@ -419,6 +418,8 @@ regions = {
     "Philippines": "Philippines",
     "Piazza Armerina": "Piazza Armerina",
     "Picardie": "Picardie",
+    "Picerno": "Picerno",
+    "Pignola": "Pignola",
     "Pinu": "Pinu",
     "Poggiardo": "Poggiardo",
     "Poitou": "Poitou",
@@ -475,6 +476,7 @@ regions = {
     "Samoa": "Samoa",
     "San Cataldo": "San Cataldo",
     "San Cesario di Lecce": "San Cesario di Lecce",
+    "San Fele": "San Fele",
     "San Fratello": "San Fratello",
     "San Giorgio Ionico": "San Giorgio Ionico",
     "Santa Cesarea Terme": "Santa Cesarea Terme",
@@ -604,5 +606,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 599
+}  # 601
 # END
