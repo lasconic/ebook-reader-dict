@@ -365,6 +365,7 @@ regions = {
     "Niger": "Niger",
     "Nigeria": "Nigeria",
     "Nigéria": "Nigeria",
+    "Nootka Sound": "Baie de Nootka",
     "Nord de la France": "Nord de la France",
     "Nord du Viêt Nam": "Nord du Viêt Nam",
     "Nord du pays de Galles": "Nord du pays de Galles",
@@ -610,5 +611,5 @@ regions = {
     "Île-de-France": "Île-de-France",
     "Îles d’Aran": "Îles d'Aran",
     "Îles-de-la-Madeleine": "Îles-de-la-Madeleine",
-}  # 605
+}  # 606
 # END

@@ -216,7 +216,7 @@ escopos = {
     "interior de são paulo": "dialeto caipira",
     "internetês": "internetês",
     "intransitivo": "intransitivo",
-    "iralanda": "Irlanda",
+    "irlanda": "Irlanda",
     "irlanda do norte": "Irlanda",
     "ironia": "ironia",
     "irónico": "ironia",
