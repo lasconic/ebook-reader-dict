@@ -201,6 +201,7 @@ escopos = {
     "grã-bretanha": "Reino Unido",
     "guatemala": "Guatemala",
     "guiné-bissau": "Guiné-Bissau",
+    "histórico": "histórico",
     "honduras": "Honduras",
     "hortaliça": "hortaliça",
     "ictiologia": "ictiologia",
@@ -429,5 +430,5 @@ escopos = {
     "zootecnia": "veterinária",
     "áfrica do sul": "África do Sul",
     "índia": "{{#ifeq: {{{1}}}|pt|Índia|Índia}}",
-}  # 424
+}  # 425
 # END

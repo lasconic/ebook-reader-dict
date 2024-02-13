@@ -1204,6 +1204,7 @@ langs = {
     "yua": "maya yucateco",
     "yua-pro": "protoyucateco",
     "yuc": "yuchi",
+    "yue": "cantonés",
     "yuz": "yuracaré",
     "za": "chuan",
     "zad": "zapoteco de Cajonos",
@@ -1232,5 +1233,5 @@ langs = {
     "zu": "zulú",
     "zun": "zuñi",
     "zza": "zazaki",
-}  # 1,227
+}  # 1,228
 # END
