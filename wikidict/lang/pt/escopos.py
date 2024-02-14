@@ -153,6 +153,7 @@ escopos = {
     "engenharia mecânica": "engenharia",
     "es": "Espírito Santo",
     "escócia": "Escócia",
+    "esgrima": "esgrima",
     "esoterismo": "Esoterismo",
     "espanha": "Espanha",
     "esporte": "esporte",
@@ -430,5 +431,5 @@ escopos = {
     "zootecnia": "veterinária",
     "áfrica do sul": "África do Sul",
     "índia": "{{#ifeq: {{{1}}}|pt|Índia|Índia}}",
-}  # 425
+}  # 426
 # END
