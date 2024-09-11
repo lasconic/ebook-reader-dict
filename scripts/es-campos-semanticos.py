@@ -1,6 +1,6 @@
 from typing import Dict
 
-from scripts_utils import get_soup
+from scripts_utils import get_htmlparser
 
 START_URL = "https://es.wiktionary.org/wiki/Categor%C3%ADa:Plantillas_de_campo_sem%C3%A1ntico"
 ROOT_URL = "https://es.wiktionary.org/"
@@ -10,40 +10,40 @@ NEXTPAGE_TEXT = "página siguiente"
 
 def process_alias_page(model: str, template_text: str, results: Dict[str, str]) -> None:
     url = ALIAS_URL.format(model)
-    soup = get_soup(url)
-    ul = soup.find("ul", {"id": ["mw-whatlinkshere-list"]})
+    parser = get_htmlparser(url)
+    ul = parser.css_first("ul#mw-whatlinkshere-list")
     if not ul:
         return
-    for alias in ul.find_all("a", {"class": ["mw-redirect"]}):
-        alias = alias.text.replace("Plantilla:", "")
+    for alias in ul.css("a.mw-redirect"):
+        alias = alias.text().replace("Plantilla:", "")
         if alias == "editar":
             continue
         results[alias] = template_text
 
 
 def process_cs_page(url: str, results: Dict[str, str]) -> str:
-    soup = get_soup(url)
+    parser = get_htmlparser(url)
 
     nextpage = ""
-    nextpage_div = soup.find(id="mw-pages")
-    last_link = nextpage_div.find_all("a")[-1]
-    if NEXTPAGE_TEXT == last_link.text:
-        nextpage = ROOT_URL + last_link.get("href")
+    nextpage_div = parser.css_first("#mw-pages")
+    last_link = nextpage_div.css("a")[-1]
+    if NEXTPAGE_TEXT == last_link.text():
+        nextpage = ROOT_URL + last_link.attributes["href"]
 
-    divs_category = soup.find_all("div", {"class": "mw-category-group"})
+    divs_category = parser.css("div.mw-category-group")
     for divs_category in divs_category:
-        lis = divs_category.find_all("li")
+        lis = divs_category.css("li")
         for li in lis:
-            template_link = li.find("a")
-            template_url = ROOT_URL + template_link.get("href")
-            template_name = template_link.text.split(":")[1]
-            template_soup = get_soup(template_url)
-            template_text_div = template_soup.find("div", {"class": "mw-parser-output"})
-            template_text = template_text_div.find("p").text.strip()
+            template_link = li.css_first("a")
+            template_url = ROOT_URL + template_link.attributes["href"]
+            template_name = template_link.text().split(":")[1]
+            template_parser = get_htmlparser(template_url)
+            template_text_div = template_parser.css_first("div.mw-parser-output")
+            template_text = template_text_div.css_first("p").text().strip()
             if template_text[-1] == ".":
                 template_text = template_text[:-1]
             results[template_name] = template_text
-            process_alias_page(template_link.text, template_text, results)
+            process_alias_page(template_link.text(), template_text, results)
 
     return nextpage
 

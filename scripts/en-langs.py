@@ -1,7 +1,7 @@
 import re
 from typing import Dict, List
 
-from scripts_utils import get_soup
+from scripts_utils import get_htmlparser
 
 
 def read_all_lines_etym(lines: List[str]) -> Dict[str, Dict[str, str]]:
@@ -74,10 +74,9 @@ def read_all_lines_lang(lines: List[str]) -> Dict[str, str]:
 
 
 def get_content(url: str) -> List[str]:
-    soup = get_soup(url)
-    content_div = soup.find("div", "mw-parser-output")
-    content_div = content_div.findChild("div", {"class": "mw-highlight"}, recursive=False)
-    return str(content_div.text).split("\n")
+    parser = get_htmlparser(url)
+    content_div = parser.css_first("div.mw-parser-output > div.mw-highlight")
+    return str(content_div.text()).split("\n")
 
 
 def process_lang_page(url: str) -> Dict[str, str]:

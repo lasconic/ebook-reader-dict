@@ -1,6 +1,6 @@
 import re
 
-from scripts_utils import get_soup
+from scripts_utils import get_htmlparser
 
 
 def clean_wiki(text: str) -> str:
@@ -10,11 +10,11 @@ def clean_wiki(text: str) -> str:
 
 
 url = "https://de.wiktionary.org/w/index.php?title=Vorlage:K/Abk&action=edit"
-soup = get_soup(url)
+parser = get_htmlparser(url)
 
-textarea = soup.find(id="wpTextbox1")
+textarea = parser.css_first("#wpTextbox1")
 
-text = textarea.text.split("#default=")[0]
+text = textarea.text().split("#default=")[0]
 results = {}
 for line in text.split("\n"):
     if not line.startswith("|"):

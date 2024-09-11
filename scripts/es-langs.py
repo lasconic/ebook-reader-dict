@@ -1,18 +1,18 @@
-from scripts_utils import get_soup
+from scripts_utils import get_htmlparser
 
 url = "https://es.wiktionary.org/wiki/Ap%C3%A9ndice:C%C3%B3digos_de_idioma"
-soup = get_soup(url)
+soup = get_htmlparser(url)
 
 langs = {}
-tables = soup.find_all("table", {"class": "wikitable"})
+tables = soup.css("table.wikitable")
 for table in tables:
-    if table.attrs.get("style"):
+    if table.attributes.get("style"):
         continue
-    trs = table.find_all("tr")
+    trs = table.css("tr")
     for tr in trs:
-        tds = tr.find_all("td")
+        tds = tr.css("td")
         if len(tds) > 1:
-            langs[tds[0].text.strip()] = tds[1].text.strip()
+            langs[tds[0].text().strip()] = tds[1].text().strip()
 
 assert langs
 print("langs = {")

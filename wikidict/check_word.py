@@ -10,7 +10,7 @@ from time import sleep
 from typing import List, Optional
 
 import requests
-from bs4 import BeautifulSoup
+from selectolax.lexbor import LexborHTMLParser
 from requests.exceptions import RequestException
 
 from .render import MISSING_TPL_SEEN, parse_word
@@ -71,106 +71,106 @@ def contains(pattern: str, text: str) -> bool:
 
 def filter_html(html: str, locale: str) -> str:
     """Some parts of the Wiktionary HTML."""
-    bs = BeautifulSoup(markup=html, features="html.parser")
+    parser = LexborHTMLParser(html)
 
     # Filter out warnings about obsolete template models used
-    for span in bs.find_all("span", {"id": "FormattingError"}):
+    for span in parser.css("span#FormattingError"):
         span.decompose()
 
     # Filter out Wikispecies links
-    for span in bs.find_all("span", {"class": "trad-exposant"}):
+    for span in parser.css("span.trad-exposant"):
         span.decompose()
 
     # Filter out result of <math> and <chem>
-    for span in bs.find_all("span", {"class": "mwe-math-element"}):
+    for span in parser.css("span.mwe-math-element"):
         span.decompose()
 
     if locale == "ca":
         # {{sense accepcions}}
-        for i in bs.find_all("i"):
-            if i.text.startswith("a aquesta paraula li falten les accepcions"):
+        for i in parser.css("i"):
+            if i.text().startswith("a aquesta paraula li falten les accepcions"):
                 # Remove the trailing dot
-                i.next_sibling.replaceWith(i.next_sibling.text[1:])
+                i.next.replace_with(i.next.text()[1:])
                 # And remove the note
                 i.decompose()
         # Filter out anchors as they are ignored from templates
-        for a in bs.find_all("a", href=True):
+        for a in parser.css("a[href]"):
             if (
-                a["href"].startswith("#")
-                and not a["href"].startswith("#ca#")
-                and a["href"] != "#ca"
-                and "mw-selflink-fragment" not in a.get("class", [])
+                a.attributes["href"].startswith("#")
+                and not a.attributes["href"].startswith("#ca#")
+                and a.attributes["href"] != "#ca"
+                and "mw-selflink-fragment" not in a.attributes.get("class", [])
             ):
                 a.decompose()
 
     elif locale == "de":
         # <sup>☆</sup>
-        for sup in bs.find_all("sup", string="☆"):
+        for sup in parser.css("sup[string=☆]"):
             sup.decompose()
         # External links
-        for small in bs.find_all("small", {"class": "noprint"}):
+        for small in parser.css("small.noprint"):
             small.decompose()
         # Internet Archive
-        for a in bs.find_all("a", {"class": "external"}):
-            if "archive.org" in a["href"]:
+        for a in parser.css("a.external"):
+            if "archive.org" in a.attributes["href"]:
                 a.decompose()
         # Lang link in {{Üxx5}}
-        for a in bs.find_all("a"):
-            if (sup := a.find("sup")) and sup.text.startswith("→"):
+        for a in parser.css("a"):
+            if (sup := a.css_first("sup")) and sup.text().startswith("→"):
                 a.decompose()
         # Other Wikis
-        for a in bs.find_all("a", {"class": "extiw"}):
+        for a in parser.css("a.extiw"):
             if (
-                ":Special:" not in a["title"]
-                and (a_sup := a.find("sup"))
-                and "WP" in a_sup.text
-                or ":Special:" in a["title"]
+                ":Special:" not in a.attributes["title"]
+                and (a_sup := a.css_first("sup"))
+                and "WP" in a_sup.text()
+                or ":Special:" in a.attributes["title"]
             ):
                 a.decompose()
-        for sup in bs.find_all("sup"):
-            if sup.get("style", "") == "color:slategray;":
+        for sup in parser.css("sup"):
+            if sup.attributes.get("style", "") == "color:slategray;":
                 sup.decompose()
             # Filter out anchors as they are ignored from templates
-            for a in bs.find_all("a", href=True):
-                if a["href"].startswith("#"):
+            for a in parser.css("a[href]"):
+                if a.attributes["href"].startswith("#"):
                     a.decompose()
     elif locale == "el":
-        for sup in bs.find_all("sup"):
-            id = sup.get("id", "")
+        for sup in parser.css("sup"):
+            id = sup.attributes.get("id", "")
             if id.startswith("cite_"):
                 sup.decompose()
     elif locale == "en":
-        for span in bs.find_all("span"):
-            if span.string == "and other forms":
-                span.string += f' {span["title"]}'
+        for span in parser.css("span"):
+            if span.text(deep=False) == "and other forms":
+                span.text(deep=False) += f' {span["title"]}'
         # other anchors
-        for a in bs.find_all("a", href=True):
-            if a["href"].lower().startswith(("#cite", "#mw")):
+        for a in parser.css("a[href]"):
+            if a.attributes["href"].lower().startswith(("#cite", "#mw")):
                 a.decompose()
 
     elif locale == "es":
         # Replace color rectangle
-        for span in bs.find_all("span", {"id": "ColorRect"}):
+        for span in parser.css("span#ColorRect"):
             for style in span["style"].split(";"):
                 kv = style.strip().split(":")
                 if len(kv) == 2 and kv[0] == "background":
                     span.previous_sibling.decompose()
                     span.replaceWith(color(kv[1].strip()))
-        for a in bs.find_all("a", href=True):
-            if a["href"].startswith("#cite"):
+        for a in parser.css("a[href]"):
+            if a.attributes["href"].startswith("#cite"):
                 a.decompose()
             # cita requerida
-            elif a["href"] == "/wiki/Ayuda:Tutorial_(Ten_en_cuenta)#Citando_tus_fuentes":
+            elif a.attributes["href"] == "/wiki/Ayuda:Tutorial_(Ten_en_cuenta)#Citando_tus_fuentes":
                 a.parent.parent.decompose()
         # coord output
-        for span in bs.find_all("span", {"class": ["geo-multi-punct", "geo-nondefault"]}):
+        for span in parser.css("span.geo-multi-punct, span.geo-nondefault"):
             span.decompose()
         # external autonumber
-        for a in bs.find_all("a", {"class": "external autonumber"}):
+        for a in parser.css("a[class='external autonumber']"):
             a.decompose()
-        dts = bs.find_all("dt")
+        dts = parser.css("dt")
         for dt in dts:
-            dt_array = dt.text.split(" ", 1)
+            dt_array = dt.text().split(" ", 1)
             if len(dt_array) == 2:
                 dt.string = f"{dt_array[0]} "
                 # 2 Historia. --> (Historia):
@@ -181,7 +181,7 @@ def filter_html(html: str, locale: str) -> str:
                     dt.string += f" {dt_array_dot[-1]}:"
                 else:
                     # duplicate the definition to cope with both cases above
-                    newdt = copy.copy(dt)
+                    newdt = copy.copy(dt) #TODO
                     dt.parent.append(newdt)
                     if dd := dt.find_next_sibling("dd"):
                         dt.parent.append(copy.copy(dd))
@@ -192,98 +192,98 @@ def filter_html(html: str, locale: str) -> str:
 
     elif locale == "fr":
         # Filter out refnec tags
-        for span in bs.find_all("span", {"id": "refnec"}):
-            if span.previous_sibling:
+        for span in parser.css("span#refnec"):
+            if span.previous_sibling: #TODO
                 span.previous_sibling.decompose()
             span.decompose()
         # Cette information a besoin d’être précisée
-        for span in bs.find_all("span", {"title": "Cette information a besoin d’être précisée"}):
+        for span in parser.css('span[title="Cette information a besoin d’être précisée"]'):
             span.decompose()
         # {{invisible}}
-        for span in bs.find_all("span", {"class": "invisible"}):
+        for span in parser.css("span.invisible"):
             span.decompose()
         # — (Richelet, Dictionnaire français 1680)
-        for span in bs.find_all("span", {"class": "sources"}):
+        for span in parser.css("span.sources"):
             span.decompose()
         # → consulter cet ouvrage
-        for a in bs.find_all("a", {"class": "external text"}):
-            if "consulter cet ouvrage" in a.text:
+        for a in parser.css("a[class='external text']"):
+            if "consulter cet ouvrage" in a.text():
                 a.decompose()
         # liens externes autres Wikis
-        for a in bs.find_all("a", {"class": "extiw"}):
+        for a in parser.css("a.extiw"):
             # Wikispecies
             if (
-                a["title"].startswith("wikispecies")
-                and a.parent.next_sibling
+                a.attributes["title"].startswith("wikispecies")
+                and a.parent.next_sibling #TODO
                 and "sur Wikispecies" in a.parent.next_sibling
             ):
                 a.parent.next_sibling.replaceWith("")
             # Wikidata
-            elif a["title"].startswith("d:") and a.next_sibling and "base de données Wikidata" in a.next_sibling:
+            elif a.attributes["title"].startswith("d:") and a.next_sibling and "base de données Wikidata" in a.next_sibling:
                 a.next_sibling.replaceWith("")
             # {{LienRouge|lang=en|trad=Reconstruction
             elif "Reconstruction" in a["title"]:
                 a.decompose()
         # external autonumber
-        for a in bs.find_all("a", {"class": "external autonumber"}):
+        for a in parser.css("a[class='external autonumber']"):
             a.decompose()
         # attention image
-        for a in bs.find_all("a", {"title": "alt = attention"}):
-            a.replaceWith("⚠")
+        for a in parser.css("a[title='alt = attention']"):
+            a.replaceWith("⚠") #TODO
         # other anchors
-        for a in bs.find_all("a", href=True):
-            if a["href"].lower().startswith(("#cite", "#ref", "#voir")):
+        for a in parser.css("a[href]"):
+            if a.attributes["href"].lower().startswith(("#cite", "#ref", "#voir")):
                 a.decompose()
 
     elif locale == "it":
         # Numbered external links
-        for a in bs.find_all("a", {"class": "external autonumber"}):
+        for a in parser.css("a[class='external autonumber']"):
             a.decompose()
         # Missing definitions
-        for i in bs.find_all("i"):
-            if i.text.startswith("definizione mancante"):
+        for i in parser.css("i"):
+            if i.text().startswith("definizione mancante"):
                 i.decompose()
         # <ref>
-        for a in bs.find_all("sup", {"class": "reference"}):
+        for a in parser.css("sup.reference"):
             a.decompose()
         # Wikispecies
-        for img in bs.find_all("img", {"alt": "Wikispecies"}):
-            img.next_sibling.next_sibling.decompose()  # <b><a>...</a></b>
+        for img in parser.css("img[alt=Wikispecies]"):
+            img.next_sibling.next_sibling.decompose()  # <b><a>...</a></b> TODO
             img.next_sibling.next_sibling.replaceWith(img.next_sibling.next_sibling.text[1:])  # Trailing ")"
             img.next_sibling.replaceWith("")  # space
             img.previous_sibling.replaceWith("")  # Leading "("
             img.decompose()
         # Wikipedia, Wikiquote
-        for small in bs.find_all("small"):
-            if small.find("a", {"title": "Wikipedia"}) or small.find("a", {"title": "Wikiquote"}):
+        for small in parser.css("small"):
+            if small.css_first("a[title=Wikipedia]") or small.css_first("a[title=Wikiquote]"):
                 small.decompose()
 
     elif locale == "pt":
         # Issue 600: remove superscript locales
-        for sup in bs.find_all("sup"):
-            if sup.find("a", {"class": "extiw"}):
+        for sup in parser.css("sup"):
+            if sup.css_first("a.extiw"):
                 sup.decompose()
-            if sup.find("a", {"class": "new"}):
+            if sup.css_first("a.new"):
                 sup.decompose()
         # Almost same as previous, but for all items not elligible to be printed
-        for span in bs.find_all("span", {"class": "noprint"}):
+        for span in parser.css("span.noprint"):
             span.decompose()
         # External links
-        for small in bs.find_all("small"):
-            if small.find("a", {"class": "extiw"}):
+        for small in parser.css("small"):
+            if small.css_first("a.extiw"):
                 small.decompose()
 
     elif locale == "sv":
         # <ref>
-        for a in bs.find_all("sup", {"class": "reference"}):
+        for a in parser.css("sup.reference"):
             a.decompose()
 
-    return no_spaces(bs.text)
+    return no_spaces(parser.text())
 
 
 def get_text(html: str) -> str:
     """Parse the HTML code and return it as a string."""
-    return str(BeautifulSoup(markup=html, features="html.parser").text)
+    return str(LexborHTMLParser(html).text())
 
 
 def craft_url(word: str, locale: str, raw: bool = False) -> str:

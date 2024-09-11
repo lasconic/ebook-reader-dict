@@ -1,6 +1,6 @@
 import re
 
-from scripts_utils import get_soup
+from scripts_utils import get_htmlparser
 
 
 def process_display(display: str) -> str:
@@ -33,9 +33,9 @@ def dialect_handler(text: str) -> dict[str, str]:
     if not (match := re.search(r'"([^"]*)"', line1)):
         return {}
 
-    soup = get_soup(f"https://en.wiktionary.org/wiki/{match[1]}")
-    div = soup.find("div", {"class": "mw-highlight-lines"})
-    text_dialect = div.text
+    parser = get_htmlparser(f"https://en.wiktionary.org/wiki/{match[1]}")
+    div = parser.css_first("div.mw-highlight-lines")
+    text_dialect = div.text()
     text_dialect = clean_lua_text(text_dialect)
     code = ""
     for line in text_dialect.split("\n"):
@@ -62,9 +62,9 @@ def dialect_handler(text: str) -> dict[str, str]:
 
 
 def process_page(url: str, repl: list[str], stop_line: str, var_name: str, print_result: bool = True) -> dict[str, str]:
-    soup = get_soup(url)
-    div = soup.find("div", {"class": "mw-highlight-lines"})
-    text = div.text
+    parser = get_htmlparser(url)
+    div = parser.css_first("div.mw-highlight-lines")
+    text = div.text()
 
     if text.startswith("local data = require"):
         return dialect_handler(text)
@@ -235,14 +235,16 @@ process_page("https://en.wiktionary.org/wiki/Module:labels/data/regional", repl,
 print()
 
 # labels_subvarieties
-soup = get_soup("https://en.wiktionary.org/wiki/Special:PrefixIndex/Module:labels/data/lang/")
-div = soup.find("div", {"class": "mw-prefixindex-body"})
+parser = get_htmlparser("https://en.wiktionary.org/wiki/Special:PrefixIndex/Module:labels/data/lang/")
+div = parser.css_first("div.mw-prefixindex-body")
 results: dict[str, str] = {}
-for li in div.findAll("li"):
-    if li.text.endswith("documentation"):
+for li in div.css("li"):
+    if li.text().endswith("documentation"):
         continue
 
-    if (page_url := f"https://en.wiktionary.org{li.find('a')['href']}").endswith(("/zh", "/zh/functions")):
+    if (page_url := f"https://en.wiktionary.org{li.css_first('a').attributes['href']}").endswith(
+        ("/zh", "/zh/functions")
+    ):
         continue
 
     stop_line = "################## accent qualifiers" if page_url.endswith("/en") else "return"

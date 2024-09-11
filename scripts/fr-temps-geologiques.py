@@ -1,11 +1,11 @@
-from scripts_utils import get_soup
+from scripts_utils import get_htmlparser
 
 url = "https://fr.wiktionary.org/wiki/Mod%C3%A8le:Temps_g%C3%A9ologiques?action=edit"
-soup = get_soup(url)
+parser = get_htmlparser(url)
 
-textarea = soup.find(id="wpTextbox1")
+textarea = parser.css_first("#wpTextbox1")
 times = {}
-for line in textarea.text.split("\n"):
+for line in textarea.text().split("\n"):
     line = line.strip()
     if not line.startswith("|"):
         continue

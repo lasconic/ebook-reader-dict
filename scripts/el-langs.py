@@ -1,9 +1,9 @@
 import re
 
-from scripts_utils import get_soup
+from scripts_utils import get_htmlparser
 
 url = "https://el.wiktionary.org/wiki/Module:Languages"
-soup = get_soup(url)
+parser = get_htmlparser(url)
 
 in_comment = False
 script = ""
@@ -11,8 +11,8 @@ regex = r"(\w+)\s*=\s*"
 subst = '"\\1": '
 
 
-textarea = soup.find("pre", {"class": "mw-code"})
-for line in textarea.text.split("\n"):
+textarea = parser.css_first("pre.mw-code")
+for line in textarea.text().split("\n"):
     original_line = line
 
     line = line.strip()

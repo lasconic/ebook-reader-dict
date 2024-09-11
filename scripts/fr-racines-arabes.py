@@ -1,7 +1,7 @@
 import re
 from typing import Dict
 
-from scripts_utils import get_content, get_soup
+from scripts_utils import get_content, get_htmlparser
 
 ROOT = "https://fr.wiktionary.org"
 START_URL = "https://fr.wiktionary.org/wiki/Cat%C3%A9gorie:Mod%C3%A8les_de_racine_en_arabe_du_Wiktionnaire"
@@ -11,16 +11,16 @@ STRIP_COMMENT = re.compile(r"<!-- \(\w+\)[^\-]+-->").sub
 
 
 def process_category_page(url: str, results: Dict[str, Dict[str, str]]) -> str:
-    soup = get_soup(url)
+    parser = get_htmlparser(url)
     nextpage = ""
-    nextpage_div = soup.find(id="mw-pages")
-    last_link = nextpage_div.find_all("a")[-1]
-    if NEXTPAGE_TEXT == last_link.text:
-        nextpage = ROOT + last_link.get("href")
+    nextpage_div = parser.css_first("#mw-pages")
+    last_link = nextpage_div.css("a")[-1]
+    if NEXTPAGE_TEXT == last_link.text():
+        nextpage = ROOT + last_link.attributes.get("href")
 
-    content_div = soup.find(id="mw-pages")
-    for li in content_div.find_all("li"):
-        tpl_title = li.find("a").get("title")
+    content_div = parser.css_first("#mw-pages")
+    for li in content_div.css("li"):
+        tpl_title = li.css_first("a").attributes.get("title")
         if " " in tpl_title or "/" in tpl_title or "ar-racine" in tpl_title:
             continue
 

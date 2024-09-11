@@ -1,6 +1,6 @@
 from typing import Dict
 
-from scripts_utils import get_soup
+from scripts_utils import get_htmlparser
 
 ROOT_URL = "https://pt.wiktionary.org"
 START_URL = f"{ROOT_URL}/wiki/Categoria:!Predefinição_ISO_639"
@@ -8,26 +8,25 @@ NEXTPAGE_TEXT = "página seguinte"
 
 
 def process_page(page_url: str, languages: Dict[str, str]) -> str:
-    soup = get_soup(page_url)
+    parser = get_htmlparser(page_url)
 
     nextpage = ""
-    nextpage_div = soup.find(id="mw-pages")
-    last_link = nextpage_div.find_all("a")[-1]
-    if NEXTPAGE_TEXT == last_link.text:
-        nextpage = ROOT_URL + last_link.get("href")
+    nextpage_div = parser.css_first("#mw-pages")
+    last_link = nextpage_div.css("a")[-1]
+    if NEXTPAGE_TEXT == last_link.text():
+        nextpage = ROOT_URL + last_link.attributes.get("href")
 
-    content = nextpage_div.find("div", {"class": "mw-category"})
-    lis = content.findAll("li")
+    content = nextpage_div.css_first("div.mw-category")
+    lis = content.css("li")
     for li in lis:
-        link = li.find("a")["href"]
+        link = li.css_first("a").attributes["href"]
         li_url = ROOT_URL + link
-        key = li.text.split(":")[1]
-        if sub_soup := get_soup(li_url):
-            if parser_ouput := sub_soup.find("div", {"class": "mw-parser-output"}):
-                content = parser_ouput.find("p", recursive=False)
-                value = content.text
-                if value_html := content.find("b"):
-                    value = value_html.text
+        key = li.text().split(":")[1]
+        if sub_parser := get_htmlparser(li_url):
+            if content := sub_parser.css_first("div.mw-parser-output > p"):
+                value = content.text()
+                if value_html := content.css_first("b"):
+                    value = value_html.text()
                 languages[key] = value.strip()
     return nextpage
 

@@ -1,12 +1,12 @@
 import re
 
-from scripts_utils import get_soup
+from scripts_utils import get_htmlparser
 
 url = "https://pt.wiktionary.org/w/index.php?title=Predefini%C3%A7%C3%A3o:escopo/n%C3%BAcleo&action=edit"
-soup = get_soup(url)
-textarea = soup.find("textarea")
+parser = get_htmlparser(url)
+textarea = parser.css_first("textarea")
 
-text = textarea.text
+text = textarea.text()
 text = re.sub(r"(<!--.*?-->)", "", text, flags=re.DOTALL)
 text = re.sub(r"(\[\[Categoria.*?\]\])", "", text, flags=re.DOTALL)
 

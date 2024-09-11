@@ -2,8 +2,8 @@ from time import sleep
 from typing import Any, Dict
 
 import requests
-from bs4 import BeautifulSoup
 from requests.exceptions import HTTPError, RequestException
+from selectolax.lexbor import LexborHTMLParser
 
 
 def get_content(url: str, max_retries: int = 5, sleep_time: int = 5, as_json: bool = False) -> str | Dict[str, Any]:
@@ -32,6 +32,6 @@ def get_content(url: str, max_retries: int = 5, sleep_time: int = 5, as_json: bo
     raise RuntimeError(f"Sorry, too many tries [{retry}] for {url!r}")
 
 
-def get_soup(url: str) -> BeautifulSoup:
+def get_htmlparser(url: str) -> LexborHTMLParser:
     page = get_content(url)
-    return BeautifulSoup(page, features="html.parser")
+    return LexborHTMLParser(str(page))
