@@ -67,7 +67,8 @@ def test_parse_restricted_word(tmp_path: Path) -> None:
 """
     )
 
-    assert "cunnilingus" in parse.process(file, "fr")
+    mock_sql_file = tmp_path / "mock.sql"
+    assert "cunnilingus" in parse.process(file, "fr", mock_sql_file)
 
 
 def test_parse_redirected_word(tmp_path: Path) -> None:
@@ -85,7 +86,8 @@ def test_parse_redirected_word(tmp_path: Path) -> None:
 """
     )
 
-    assert not parse.process(file, "fr")
+    mock_sql_file = tmp_path / "mock.sql"
+    assert not parse.process(file, "fr", mock_sql_file)
 
 
 def test_parse_word_without_wikicode(tmp_path: Path) -> None:
@@ -114,8 +116,8 @@ def test_parse_word_without_wikicode(tmp_path: Path) -> None:
 </mediawiki>
 """
     )
-
-    assert not parse.process(file, "fr")
+    mock_sql_file = tmp_path / "mock.sql"
+    assert not parse.process(file, "fr", mock_sql_file)
 
 
 def test_parse_word_with_colons(tmp_path: Path) -> None:
@@ -153,7 +155,8 @@ def test_parse_word_with_colons(tmp_path: Path) -> None:
 """
     )
 
-    assert not parse.process(file, "fr")
+    mock_sql_file = tmp_path / "mock.sql"
+    assert not parse.process(file, "fr", mock_sql_file)
 
 
 def test_parse_word_with_templates_lowercased(tmp_path: Path) -> None:
@@ -196,7 +199,8 @@ def test_parse_word_with_templates_lowercased(tmp_path: Path) -> None:
 """
     )
 
-    assert "restaurang" in parse.process(file, "sv")
+    mock_sql_file = tmp_path / "mock.sql"
+    assert "restaurang" in parse.process(file, "sv", mock_sql_file)
 
 
 @pytest.mark.parametrize(
@@ -221,6 +225,9 @@ def test_sublang(locale: str, lang_src: str, lang_dst: str, tmp_path: Path) -> N
         output_file = parse.get_output_file(source_dir, lang_src, lang_dst, snapshot)
         assert output_file == source_dir.parent / lang_dst / lang_src / f"data_wikicode-{snapshot}.json"
 
+        output_file_modules = parse.get_output_file_modules(source_dir, lang_src, lang_dst, snapshot)
+        assert output_file_modules == source_dir.parent / lang_dst / lang_src / f"modules-{snapshot}.sqlite"
+
         with (
             patch.object(parse, "get_source_dir") as mocked_gsd,
             patch.object(parse, "get_latest_xml_file") as mocked_glxf,
@@ -234,5 +241,5 @@ def test_sublang(locale: str, lang_src: str, lang_dst: str, tmp_path: Path) -> N
             parse.main(locale)
             mocked_gsd.assert_called_once_with(lang_src)
             mocked_glxf.assert_called_once_with(source_dir)
-            mocked_p.assert_called_once_with(pages, locale)
+            mocked_p.assert_called_once_with(pages, locale, output_file_modules)
             mocked_s.assert_called_once_with(output_file, words)

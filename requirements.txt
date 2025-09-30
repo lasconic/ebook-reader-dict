@@ -9,3 +9,4 @@ python-idzip==0.3.9
 requests==2.32.5
 scour==0.38.2
 wikitextparser==0.56.4
+git+https://github.com/tatuylonen/wikitextprocessor.git@main#egg=wikitextprocessor

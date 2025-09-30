@@ -6,12 +6,13 @@ import json
 import logging
 import os
 import re
-from collections import defaultdict
 from datetime import timedelta
+from html import unescape
 from pathlib import Path
 from time import monotonic
 from typing import TYPE_CHECKING
-from xml.sax.saxutils import unescape
+
+from wikitextprocessor import Wtp
 
 from . import lang, utils
 
@@ -22,7 +23,8 @@ if TYPE_CHECKING:
 log = logging.getLogger(__name__)
 
 RE_TEXT = re.compile(r"<text[^>]*>(.*)</text>", flags=re.DOTALL).finditer
-RE_TITLE = re.compile(r"<title>([^:]*)</title>").finditer
+RE_NS = re.compile(r"<ns>(\d+)</ns>").finditer
+RE_TITLE_WORD = re.compile(r"<title>([^:]*)</title>").finditer
 
 # To list all words not taken into account with current head sections:
 #    DEBUG_PARSE=1 python -m wikidict LOCALE --parse >out.log
@@ -47,26 +49,41 @@ def xml_iter_parse(file: Path) -> Generator[str]:
                 is_element = True
 
 
-def xml_parse_element(element: str, head_sections_matcher: Callable[[str], Iterator[str]]) -> tuple[str, str]:
+def xml_parse_element(
+    element: str,
+    head_sections_matcher: Callable[[str], Iterator[str]],
+    module_matcher: Callable[[str], Iterator[re.Match[str]]],
+    template_matcher: Callable[[str], Iterator[re.Match[str]]],
+    wtp_ctx: Wtp,
+) -> tuple[str, str]:
     """Parse the XML `element` to retrieve the word and its definitions."""
-    if title_match := next(RE_TITLE(element), None):
-        for text_match in RE_TEXT(element, pos=element.find("<text", title_match.endpos)):
-            if next(head_sections_matcher(wikicode := text_match[1]), None):
-                return title_match[1], wikicode
+    if title := next(module_matcher(element), None):
+        for text in RE_TEXT(element, pos=element.find("<text")):
+            # ns = next(RE_NS(element))
+            wtp_ctx.add_page(title[1], body=unescape(text[1]), namespace_id=828, model="Scribunto")
 
+    elif title := next(template_matcher(element), None):
+        for text in RE_TEXT(element, pos=element.find("<text")):
+            # ns = next(RE_NS(element))
+            wtp_ctx.add_page(title[1], body=unescape(text[1]), namespace_id=10, model="wikitext")
+
+    elif title := next(RE_TITLE_WORD(element), None):
+        for text in RE_TEXT(element, pos=element.find("<text", title.endpos)):
+            if next(head_sections_matcher(wikicode := text[1]), None):
+                return title[1], wikicode
         if DEBUG_PARSE:
             try:
-                print(f"{title_match[1]!r}: {wikicode[:200]!r}", flush=True)
+                print(f"{title[1]!r}: {wikicode[:200]!r}", flush=True)
             except UnboundLocalError:
-                print(f"{title_match[1]!r}: NO TEXT", flush=True)
+                print(f"{title[1]!r}: NO TEXT", flush=True)
 
     # No Wikicode; unfinished page; no interesting head section; a foreign word, etc. Who knows?
     return "", ""
 
 
-def process(file: Path, locale: str) -> dict[str, str]:
+def process(file: Path, locale: str, db_path: Path) -> dict[str, str]:
     """Process the big XML file and retain only information we are interested in."""
-    words: dict[str, str] = defaultdict(str)
+    words: dict[str, str] = {}
     lang_src, lang_dst = utils.guess_locales(locale, use_log=False)
 
     log.info("Processing %s for destination lang %r ...", file, lang_dst)
@@ -81,13 +98,16 @@ def process(file: Path, locale: str) -> dict[str, str]:
             flags=re.IGNORECASE | re.MULTILINE,
         ).finditer  # type: ignore[assignment]
 
-    for element in xml_iter_parse(file):
-        word, code = xml_parse_element(element, head_sections_matcher)
-        if word and code:
-            if lang_dst == "en" and word[:19] == "Unsupported titles/":
-                continue
-            words[unescape(word)] = unescape(code)
+    module_matcher = re.compile(rf"<title>({lang.module_trans[lang_dst]}:[^<]+)</title>").finditer
+    template_matcher = re.compile(rf"<title>({lang.template_trans[lang_dst]}:[^<]+)</title>").finditer
+    wtp_ctx = Wtp(db_path, lang_code=lang_dst)
 
+    for element in xml_iter_parse(file):
+        title, code = xml_parse_element(element, head_sections_matcher, module_matcher, template_matcher, wtp_ctx)
+        if not title or not code or (lang_dst == "en" and title[:19] == "Unsupported titles/"):
+            continue
+        words[unescape(title)] = unescape(code)
+    wtp_ctx.close_db_conn()
     return words
 
 
@@ -118,6 +138,10 @@ def get_output_file(source_dir: Path, lang_src: str, lang_dst: str, snapshot: st
     return source_dir.parent / lang_dst / lang_src / f"data_wikicode-{snapshot}.json"
 
 
+def get_output_file_modules(source_dir: Path, lang_src: str, lang_dst: str, snapshot: str) -> Path:
+    return source_dir.parent / lang_dst / lang_src / f"modules-{snapshot}.sqlite"
+
+
 def main(locale: str) -> int:
     """Entry point."""
 
@@ -130,11 +154,14 @@ def main(locale: str) -> int:
         return 1
 
     ret = 0
-    output = get_output_file(source_dir, lang_src, lang_dst, input_file.stem.split("-")[-1])
+    snapshot = input_file.stem.split("-")[-1]
+    output = get_output_file(source_dir, lang_src, lang_dst, snapshot)
     if output.is_file():
         log.info("Already parsed into %s", output)
     else:
-        words = process(input_file, locale)
+        db = get_output_file_modules(source_dir, lang_src, lang_dst, snapshot)
+        db.parent.mkdir(exist_ok=True, parents=True)
+        words = process(input_file, locale, db)
         save(output, words)
         if not words:
             ret = 1

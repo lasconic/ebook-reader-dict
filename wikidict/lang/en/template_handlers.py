@@ -9,7 +9,7 @@ from typing import TypedDict
 
 from num2words import num2words
 
-from ... import place
+from ...render_utils import render_lua_template
 from ...user_functions import (
     capitalize,
     chinese,
@@ -3313,7 +3313,11 @@ def render_place(tpl: str, parts: list[str], data: defaultdict[str, str], *, wor
     >>> render_place("place", ["en", "The capital city of <<s/South Carolina>>, and the county seat of <<co/Richland County>>"], defaultdict(str))
     'The capital city of South Carolina, and the county seat of Richland County'
     """
-    return place.get(parts, data, "en")
+    template = ["place"] + parts
+    if data:
+        template.extend(f"{k}={v}" for k, v in sorted(data.items()))
+    wikitext = f"{{{{{'|'.join(template)}}}}}"
+    return render_lua_template(word, wikitext, "en", "en")
 
 
 def render_pseudo_acronym_of(tpl: str, parts: list[str], data: defaultdict[str, str], *, word: str = "") -> str:
